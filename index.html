@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alexander Albuquerque | Data & BI Portfolio</title>
 
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f4f6f8;
-      color: #222;
       margin: 0;
-      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f6f8;
+      color: #222222;
       line-height: 1.6;
     }
 
     header {
-      background: #111827;
-      color: white;
+      background-color: #111827;
+      color: #ffffff;
       padding: 70px 20px;
       text-align: center;
     }
@@ -34,27 +36,34 @@
       color: #d1d5db;
     }
 
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 30px 16px;
+    }
+
     section {
-      max-width: 980px;
-      margin: 32px auto;
-      background: white;
+      background-color: #ffffff;
       padding: 34px;
+      margin-bottom: 32px;
       border-radius: 14px;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
     }
 
-    h1, h2, h3 {
-      margin-top: 0;
-    }
-
     h2 {
+      margin-top: 0;
+      color: #111827;
       border-bottom: 2px solid #e5e7eb;
       padding-bottom: 10px;
-      color: #111827;
     }
 
     h3 {
       color: #1f2937;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 22px;
     }
 
     a {
@@ -67,13 +76,10 @@
       text-decoration: underline;
     }
 
-    ul {
-      padding-left: 22px;
-    }
-
     .tag {
       display: inline-block;
-      background: #e5e7eb;
+      background-color: #e5e7eb;
+      color: #111827;
       padding: 7px 13px;
       margin: 5px;
       border-radius: 20px;
@@ -82,7 +88,7 @@
     }
 
     .highlight {
-      background: #f9fafb;
+      background-color: #f9fafb;
       border-left: 5px solid #111827;
       padding: 18px;
       margin-top: 20px;
@@ -93,14 +99,14 @@
       border: 1px solid #e5e7eb;
       padding: 24px;
       border-radius: 12px;
-      background: #fafafa;
+      background-color: #fafafa;
       margin-top: 18px;
     }
 
     .button {
       display: inline-block;
-      background: #111827;
-      color: white;
+      background-color: #111827;
+      color: #ffffff;
       padding: 11px 18px;
       border-radius: 7px;
       margin: 10px 10px 0 0;
@@ -108,7 +114,7 @@
     }
 
     .button:hover {
-      background: #374151;
+      background-color: #374151;
       text-decoration: none;
     }
 
@@ -117,6 +123,20 @@
       padding: 28px;
       color: #6b7280;
       font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 32px;
+      }
+
+      header p {
+        font-size: 16px;
+      }
+
+      section {
+        padding: 24px;
+      }
     }
   </style>
 </head>
@@ -131,172 +151,187 @@
     </p>
   </header>
 
-  <section>
-    <h2>About Me</h2>
+  <main>
 
-    <p>
-      I am a Senior Process Analyst with experience in data analysis, business intelligence,
-      IT project management, process automation and KPI development to support data-driven
-      decision-making.
-    </p>
-
-    <p>
-      My current work is focused on supporting IT project management and operational efficiency
-      initiatives through data validation, process governance, executive reporting, dashboard
-      development, automation opportunities and business analysis.
-    </p>
-
-    <div class="highlight">
-      <strong>Professional positioning:</strong>
-      Data & BI professional with a strong background in process improvement, IT project tracking,
-      SQL analysis, Power BI dashboards, automation and Data Engineering fundamentals.
-    </div>
-  </section>
-
-  <section>
-    <h2>Core Skills</h2>
-
-    <h3>Data & Business Intelligence</h3>
-    <span class="tag">SQL</span>
-    <span class="tag">Power BI</span>
-    <span class="tag">Power Query</span>
-    <span class="tag">DAX</span>
-    <span class="tag">Excel</span>
-    <span class="tag">Data Visualization</span>
-    <span class="tag">KPI Development</span>
-    <span class="tag">Executive Dashboards</span>
-    <span class="tag">Business Intelligence</span>
-    <span class="tag">Data Analysis</span>
-
-    <h3>Data Engineering & Analytics</h3>
-    <span class="tag">Python</span>
-    <span class="tag">Data Engineering</span>
-    <span class="tag">Data Modeling</span>
-    <span class="tag">Data Cleaning</span>
-    <span class="tag">Data Quality</span>
-    <span class="tag">ETL / ELT Concepts</span>
-    <span class="tag">Databases</span>
-    <span class="tag">Analytical Queries</span>
-
-    <h3>Automation & IT Project Management</h3>
-    <span class="tag">IT Project Management</span>
-    <span class="tag">Process Governance</span>
-    <span class="tag">Operational Efficiency</span>
-    <span class="tag">Power Automate</span>
-    <span class="tag">Power Apps</span>
-    <span class="tag">SharePoint</span>
-    <span class="tag">Process Automation</span>
-    <span class="tag">Stakeholder Support</span>
-  </section>
-
-  <section>
-    <h2>Current Professional Focus</h2>
-
-    <p>
-      In my current role, I work with data-driven process improvement and IT project management
-      support, helping teams monitor project information, identify inconsistencies, structure
-      business controls and create analytical views for decision-making.
-    </p>
-
-    <ul>
-      <li>IT project tracking and operational control</li>
-      <li>Executive reporting and business indicators</li>
-      <li>Data validation and inconsistency analysis</li>
-      <li>Process automation opportunities</li>
-      <li>Dashboard development and analytical storytelling</li>
-      <li>Support for cross-functional teams and stakeholders</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Certification</h2>
-
-    <h3>Data Engineering Certificate</h3>
-
-    <p>
-      Certification focused on Data Engineering concepts, including databases, data modeling,
-      data pipelines, data processing and analytical solutions.
-    </p>
-  </section>
-
-  <section>
-    <h2>Featured Project</h2>
-
-    <div class="project-card">
-      <h3>iFood Marketing Analytics</h3>
+    <section>
+      <h2>About Me</h2>
 
       <p>
-        Data analysis project focused on customer behavior and marketing campaigns.
-        The project uses SQL for data structuring, cleaning and analysis, Power BI
-        for executive dashboards and Python for exploratory analysis and customer segmentation.
+        I am a Senior Process Analyst with experience in data analysis, business intelligence,
+        IT project management, process automation and KPI development to support data-driven
+        decision-making.
       </p>
 
       <p>
-        <strong>Business goal:</strong> understand customer profiles, identify consumption patterns,
-        analyze campaign response and support better marketing decisions through data.
+        My current work is focused on supporting IT project management and operational efficiency
+        initiatives through data validation, process governance, executive reporting, dashboard
+        development, automation opportunities and business analysis.
       </p>
 
-      <p>
-        <strong>Delivered so far:</strong>
-      </p>
+      <div class="highlight">
+        <strong>Professional positioning:</strong>
+        Data & BI professional with a strong background in process improvement, IT project tracking,
+        SQL analysis, Power BI dashboards, automation and Data Engineering fundamentals.
+      </div>
+    </section>
 
-      <ul>
-        <li>SQL data structure creation</li>
-        <li>Data cleaning and standardization</li>
-        <li>Business KPI development</li>
-        <li>Customer segmentation by income, age and consumption behavior</li>
-        <li>Analytical base prepared for Power BI dashboards</li>
-      </ul>
+    <section>
+      <h2>Core Skills</h2>
 
-      <p>
-        <strong>Tools used:</strong>
-      </p>
+      <h3>Data & Business Intelligence</h3>
 
       <span class="tag">SQL</span>
       <span class="tag">Power BI</span>
+      <span class="tag">Power Query</span>
+      <span class="tag">DAX</span>
+      <span class="tag">Excel</span>
+      <span class="tag">Data Visualization</span>
+      <span class="tag">KPI Development</span>
+      <span class="tag">Executive Dashboards</span>
+      <span class="tag">Business Intelligence</span>
+      <span class="tag">Data Analysis</span>
+
+      <h3>Data Engineering & Analytics</h3>
+
       <span class="tag">Python</span>
-      <span class="tag">Data Modeling</span>
-      <span class="tag">Business Analysis</span>
       <span class="tag">Data Engineering</span>
+      <span class="tag">Data Modeling</span>
+      <span class="tag">Data Cleaning</span>
+      <span class="tag">Data Quality</span>
+      <span class="tag">ETL / ELT Concepts</span>
+      <span class="tag">Databases</span>
+      <span class="tag">Analytical Queries</span>
 
-      <br><br>
+      <h3>Automation & IT Project Management</h3>
 
-      <a class="button" href="https://github.com/Albuquerque777/Albuquerque777.github.io/tree/main/projetos/ifood-marketing-analytics">
-        View Project Documentation
-      </a>
+      <span class="tag">IT Project Management</span>
+      <span class="tag">Process Governance</span>
+      <span class="tag">Operational Efficiency</span>
+      <span class="tag">Power Automate</span>
+      <span class="tag">Power Apps</span>
+      <span class="tag">SharePoint</span>
+      <span class="tag">Process Automation</span>
+      <span class="tag">Stakeholder Support</span>
+    </section>
 
-      <a class="button" href="https://github.com/Albuquerque777/Albuquerque777.github.io/tree/main/projetos/ifood-marketing-analytics/sql">
-        View SQL Scripts
-      </a>
-    </div>
-  </section>
+    <section>
+      <h2>Current Professional Focus</h2>
 
-  <section>
-    <h2>Career Interests</h2>
+      <p>
+        In my current role, I work with data-driven process improvement and IT project management
+        support, helping teams monitor project information, identify inconsistencies, structure
+        business controls and create analytical views for decision-making.
+      </p>
 
-    <p>
-      I am interested in opportunities related to Data Analysis, Business Intelligence,
-      Data Engineering, Analytics Engineering, BI Engineering, IT Project Management,
-      process automation and data-driven operational efficiency.
-    </p>
+      <ul>
+        <li>IT project tracking and operational control</li>
+        <li>Executive reporting and business indicators</li>
+        <li>Data validation and inconsistency analysis</li>
+        <li>Process automation opportunities</li>
+        <li>Dashboard development and analytical storytelling</li>
+        <li>Support for cross-functional teams and stakeholders</li>
+      </ul>
+    </section>
 
-    <span class="tag">Data Analyst</span>
-    <span class="tag">BI Analyst</span>
-    <span class="tag">Power BI Analyst</span>
-    <span class="tag">Analytics Engineer</span>
-    <span class="tag">BI Engineer</span>
-    <span class="tag">Data Engineer</span>
-    <span class="tag">IT Project Management</span>
-    <span class="tag">Process Automation</span>
-  </section>
+    <section>
+      <h2>Certification</h2>
 
-  <section>
-    <h2>Contact</h2>
+      <h3>Data Engineering Certificate</h3>
 
-    <p><strong>GitHub:</strong> Albuquerque777</p>
-    <p><strong>LinkedIn:</strong> add your LinkedIn profile here</p>
-    <p><strong>Email:</strong> add your professional email here</p>
-  </section>
+      <p>
+        Certification focused on Data Engineering concepts, including databases, data modeling,
+        data pipelines, data processing and analytical solutions.
+      </p>
+    </section>
+
+    <section>
+      <h2>Featured Project</h2>
+
+      <div class="project-card">
+        <h3>iFood Marketing Analytics</h3>
+
+        <p>
+          Data analysis project focused on customer behavior and marketing campaigns.
+          The project uses SQL for data structuring, cleaning and analysis, Power BI
+          for executive dashboards and Python for exploratory analysis and customer segmentation.
+        </p>
+
+        <p>
+          <strong>Business goal:</strong> understand customer profiles, identify consumption patterns,
+          analyze campaign response and support better marketing decisions through data.
+        </p>
+
+        <p>
+          <strong>Delivered so far:</strong>
+        </p>
+
+        <ul>
+          <li>SQL data structure creation</li>
+          <li>Data cleaning and standardization</li>
+          <li>Business KPI development</li>
+          <li>Customer segmentation by income, age and consumption behavior</li>
+          <li>Analytical base prepared for Power BI dashboards</li>
+        </ul>
+
+        <p>
+          <strong>Tools used:</strong>
+        </p>
+
+        <span class="tag">SQL</span>
+        <span class="tag">Power BI</span>
+        <span class="tag">Python</span>
+        <span class="tag">Data Modeling</span>
+        <span class="tag">Business Analysis</span>
+        <span class="tag">Data Engineering</span>
+
+        <br><br>
+
+        <a 
+          class="button" 
+          href="https://github.com/Albuquerque777/Albuquerque777.github.io/tree/main/projetos/ifood-marketing-analytics"
+          target="_blank"
+          rel="noopener noreferrer">
+          View Project Documentation
+        </a>
+
+        <a 
+          class="button" 
+          href="https://github.com/Albuquerque777/Albuquerque777.github.io/tree/main/projetos/ifood-marketing-analytics/sql"
+          target="_blank"
+          rel="noopener noreferrer">
+          View SQL Scripts
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Career Interests</h2>
+
+      <p>
+        I am interested in opportunities related to Data Analysis, Business Intelligence,
+        Data Engineering, Analytics Engineering, BI Engineering, IT Project Management,
+        process automation and data-driven operational efficiency.
+      </p>
+
+      <span class="tag">Data Analyst</span>
+      <span class="tag">BI Analyst</span>
+      <span class="tag">Power BI Analyst</span>
+      <span class="tag">Analytics Engineer</span>
+      <span class="tag">BI Engineer</span>
+      <span class="tag">Data Engineer</span>
+      <span class="tag">IT Project Management</span>
+      <span class="tag">Process Automation</span>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+
+      <p><strong>GitHub:</strong> Albuquerque777</p>
+      <p><strong>LinkedIn:</strong> add your LinkedIn profile here</p>
+      <p><strong>Email:</strong> add your professional email here</p>
+    </section>
+
+  </main>
 
   <footer>
     <p>© 2026 Alexander Albuquerque | Data, BI, Data Engineering and IT Project Management Portfolio</p>
