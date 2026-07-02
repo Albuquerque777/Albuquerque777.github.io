@@ -1,6 +1,6 @@
 -- ============================================================
 -- Projeto: iFood Marketing Analytics
--- Arquivo: 01criacaotabelas.sql
+-- Arquivo: 01-cria-caotabelas.sql
 -- Objetivo: Criar a tabela principal do projeto iFood
 -- Autor: Alexander Albuquerque
 -- ============================================================
