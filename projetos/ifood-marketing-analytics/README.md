@@ -56,3 +56,55 @@ ifood-marketing-analytics/
 ├── powerbi/
 │
 └── python/
+## Etapas em SQL
+
+Nesta etapa foram criados scripts SQL para estruturar, tratar e analisar os dados do projeto.
+
+### 1. Criação da tabela
+
+Arquivo: `01-criacao-tabelas.sql`
+
+Este arquivo cria a tabela principal do projeto, com informações sobre clientes, renda, compras, campanhas e reclamações.
+
+### 2. Tratamento dos dados
+
+Arquivo: `02tratamentodados.sql`
+
+Este arquivo cria uma visão tratada da base, calculando novos campos como idade, total de dependentes, gasto total e total de compras.
+
+### 3. Indicadores de negócio
+
+Arquivo: `03-kpis-negocio.sql`
+
+Este arquivo cria indicadores executivos, como total de clientes, renda média, gasto médio, total de compras e taxa de resposta das campanhas.
+
+### 4. Segmentação de clientes
+
+Arquivo: `04-segmentacao-clientes.sql`
+
+Este arquivo segmenta os clientes por faixa etária, faixa de renda, perfil de consumo, perfil de compra e resposta à campanha.
+
+---
+
+## Principais indicadores analisados
+
+- Total de clientes
+- Renda média
+- Idade média
+- Receita total analisada
+- Gasto médio por cliente
+- Média de compras por cliente
+- Taxa de resposta de campanha
+- Taxa de reclamação
+- Consumo por faixa de renda
+- Consumo por faixa etária
+
+---
+
+
+
+## Autor
+
+Alexander Albuquerque
+
+
