@@ -1,6 +1,6 @@
 -- ============================================================
 -- Projeto: iFood Marketing Analytics
--- Arquivo: 02tratamentodados.sql
+-- Arquivo: 02-tratamento-dados.sql
 -- Objetivo: Criar uma visão tratada da base de clientes
 -- Autor: Alexander Albuquerque
 -- ============================================================
