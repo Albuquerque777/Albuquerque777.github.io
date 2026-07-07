@@ -3,9 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Alexander Albuquerque - Data, Business Intelligence, Power BI, SQL, Python, Automation, Operational Efficiency and IT Project Management portfolio.">
-  <meta name="keywords" content="Data Analyst, Business Intelligence, Power BI, SQL, Python, Data Engineering, Automation, IT Project Management, Operational Efficiency, Portfolio">
+
+  <meta name="description" content="Alexander Albuquerque - Data, Business Intelligence, Power BI, SQL, Python, Machine Learning, Automation, Operational Efficiency and IT Project Management portfolio.">
+  <meta name="keywords" content="Data Analyst, Business Intelligence, Power BI, SQL, Python, Machine Learning, Data Engineering, Automation, IT Project Management, Operational Efficiency, Portfolio">
   <meta name="author" content="Alexander C. A. Albuquerque">
+
+  <meta property="og:title" content="Alexander Albuquerque | Data, BI & Automation Portfolio">
+  <meta property="og:description" content="Portfolio focused on Power BI, SQL, Python, Machine Learning, Business Intelligence, Automation and IT Project Management.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://albuquerque777.github.io/">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Alexander Albuquerque | Data, BI & Automation Portfolio">
+  <meta name="twitter:description" content="Data & BI portfolio with SQL, Python, Machine Learning, Power BI and Automation projects.">
 
   <title>Alexander Albuquerque | Data, BI & Automation Portfolio</title>
 
@@ -21,6 +31,7 @@
       --muted: #64748b;
       --border: #e2e8f0;
       --success: #059669;
+      --warning: #d97706;
       --shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
       --radius: 18px;
     }
@@ -49,6 +60,12 @@
 
     a:hover {
       text-decoration: underline;
+    }
+
+    a:focus,
+    .btn:focus {
+      outline: 3px solid #93c5fd;
+      outline-offset: 3px;
     }
 
     .container {
@@ -285,7 +302,7 @@
     .lead {
       color: var(--muted);
       font-size: 17px;
-      max-width: 820px;
+      max-width: 860px;
     }
 
     .stats-grid {
@@ -366,6 +383,18 @@
       background: #eef2f7;
       color: var(--primary);
       border-color: var(--border);
+    }
+
+    .tag.success {
+      background: #ecfdf5;
+      color: #047857;
+      border-color: #a7f3d0;
+    }
+
+    .tag.warning {
+      background: #fffbeb;
+      color: #b45309;
+      border-color: #fde68a;
     }
 
     .market-grid {
@@ -452,6 +481,18 @@
       border: 1px solid var(--border);
       border-radius: 999px;
       padding: 6px 10px;
+    }
+
+    .project-highlight {
+      background: #ffffff;
+      border: 1px solid #bfdbfe;
+      border-radius: 14px;
+      padding: 16px;
+      margin-top: 16px;
+    }
+
+    .project-highlight strong {
+      color: var(--primary);
     }
 
     .contact-grid {
@@ -572,11 +613,14 @@
   <div class="topbar">
     <div class="container nav">
       <a class="brand" href="#top">Alexander Albuquerque</a>
+
       <nav class="nav-links" aria-label="Main navigation">
         <a href="#about">About</a>
+        <a href="#market">Market</a>
         <a href="#skills">Skills</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
@@ -585,20 +629,25 @@
   <header id="top" class="hero">
     <div class="container hero-grid">
       <div>
-        <div class="eyebrow">Data • BI • Automation • IT Projects</div>
+        <div class="eyebrow">Data • BI • Machine Learning • Automation • IT Projects</div>
+
         <h1>Turning data and processes into <span>business decisions</span>.</h1>
+
         <p class="hero-subtitle">
           Data & Business Intelligence professional focused on Power BI, SQL, Python,
-          operational efficiency, automation, data governance and IT project management.
+          machine learning, operational efficiency, automation, data governance and
+          IT project management.
         </p>
 
         <div class="hero-actions">
           <a class="btn btn-primary" href="https://app.powerbi.com/view?r=eyJrIjoiYjEwMTJjYmEtNTY3YS00ODRlLTgzNGYtYmUwMWEzZTM0NWYzIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9" target="_blank" rel="noopener noreferrer">
             View Power BI Dashboard
           </a>
-          <a class="btn btn-light" href="https://github.com/Albuquerque777" target="_blank" rel="noopener noreferrer">
-            GitHub Portfolio
+
+          <a class="btn btn-light" href="https://github.com/Albuquerque777/Albuquerque777.github.io/tree/main/projetos/ifood-marketing-analytics" target="_blank" rel="noopener noreferrer">
+            View Full Data Project
           </a>
+
           <a class="btn btn-light" href="https://www.linkedin.com/in/alexander-albuquerque-b527a6217" target="_blank" rel="noopener noreferrer">
             LinkedIn Profile
           </a>
@@ -607,13 +656,16 @@
 
       <aside class="hero-card" aria-label="Professional summary">
         <h2>Current Positioning</h2>
+
         <p>
           Senior Process Analyst working with operational efficiency, BI, automation,
           IT project governance, purchasing process controls and strategic reporting.
         </p>
+
         <ul class="hero-card-list">
           <li>Executive dashboards and KPI monitoring</li>
           <li>SQL analysis, Power Query, DAX and Power BI</li>
+          <li>Python analytics, predictive modeling and segmentation</li>
           <li>Automation with Power Platform and SharePoint</li>
           <li>Data quality, governance and process improvement</li>
         </ul>
@@ -632,9 +684,9 @@
 
       <p class="lead">
         I work at the intersection of data analysis, business intelligence, process governance,
-        automation and IT project support. My focus is to transform complex information into
-        clear dashboards, reliable indicators, business controls and practical insights for
-        decision-making.
+        automation, machine learning projects and IT project support. My focus is to transform
+        complex information into dashboards, predictive insights, reliable KPIs, business controls
+        and practical recommendations for decision-making.
       </p>
 
       <div class="stats-grid">
@@ -642,14 +694,17 @@
           <strong>BI</strong>
           <span>Dashboards, KPIs and executive reporting</span>
         </div>
+
         <div class="stat">
           <strong>SQL</strong>
           <span>Data extraction, analysis and validation</span>
         </div>
+
         <div class="stat">
           <strong>Python</strong>
-          <span>Analytics, automation and data preparation</span>
+          <span>Analytics, machine learning and data preparation</span>
         </div>
+
         <div class="stat">
           <strong>IT</strong>
           <span>Governance, projects and process improvement</span>
@@ -668,15 +723,18 @@
       <div class="market-grid">
         <div class="info-box">
           <h3>Target roles</h3>
+
           <p>
             This portfolio is positioned for roles that combine data, business context,
             technology, automation and operational performance.
           </p>
+
           <ul class="market-list">
             <li>Data Analyst / Senior Data Analyst</li>
             <li>Business Intelligence Analyst / Power BI Analyst</li>
             <li>Analytics Engineer / BI Engineer</li>
             <li>Process & Data Analyst</li>
+            <li>Marketing Analytics / CRM Analytics</li>
             <li>Automation Analyst / Operational Efficiency Analyst</li>
             <li>IT Project Management / Data-driven PMO</li>
           </ul>
@@ -684,14 +742,17 @@
 
         <div class="info-box">
           <h3>High-value market skills</h3>
+
           <p>
             The portfolio emphasizes practical skills commonly required in current technology,
             analytics and transformation opportunities.
           </p>
+
           <div class="tag-list">
             <span class="tag">Power BI</span>
             <span class="tag">SQL</span>
             <span class="tag">Python</span>
+            <span class="tag">Machine Learning</span>
             <span class="tag">DAX</span>
             <span class="tag">Power Query</span>
             <span class="tag">Data Modeling</span>
@@ -709,6 +770,65 @@
       </div>
     </section>
 
+    <section id="results" class="container section-card">
+      <div class="section-header">
+        <div>
+          <div class="section-kicker">Featured Results</div>
+          <h2>Business-oriented analytics results from the portfolio.</h2>
+        </div>
+      </div>
+
+      <p class="lead">
+        The iFood Marketing Analytics project demonstrates how SQL, Python, Machine Learning
+        and Power BI can be combined to generate business insights, customer prioritization,
+        segmentation and executive decision support.
+      </p>
+
+      <div class="stats-grid">
+        <div class="stat">
+          <strong>2,205</strong>
+          <span>Customers analyzed</span>
+        </div>
+
+        <div class="stat">
+          <strong>20.77%</strong>
+          <span>Campaign response rate analyzed</span>
+        </div>
+
+        <div class="stat">
+          <strong>0.86</strong>
+          <span>ROC-AUC in campaign response model</span>
+        </div>
+
+        <div class="stat">
+          <strong>3</strong>
+          <span>Actionable customer segments created</span>
+        </div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat">
+          <strong>0.74</strong>
+          <span>Recall for campaign response prediction</span>
+        </div>
+
+        <div class="stat">
+          <strong>52.28%</strong>
+          <span>Revenue proxy concentrated in top 20% customers</span>
+        </div>
+
+        <div class="stat">
+          <strong>458</strong>
+          <span>Campaign responders identified in the dataset</span>
+        </div>
+
+        <div class="stat">
+          <strong>CRM</strong>
+          <span>Action plan for targeting and retention</span>
+        </div>
+      </div>
+    </section>
+
     <section id="skills" class="container section-card">
       <div class="section-header">
         <div>
@@ -720,7 +840,11 @@
       <div class="grid-3">
         <div class="info-box">
           <h3>Data & BI</h3>
-          <p>Dashboard development, KPI design, executive reporting and analytical storytelling.</p>
+
+          <p>
+            Dashboard development, KPI design, executive reporting and analytical storytelling.
+          </p>
+
           <div class="tag-list">
             <span class="tag">Power BI</span>
             <span class="tag">Power Query</span>
@@ -734,9 +858,14 @@
 
         <div class="info-box">
           <h3>Analytics & Engineering</h3>
-          <p>Data preparation, modeling, quality rules, pipelines and analytical solutions.</p>
+
+          <p>
+            Data preparation, modeling, quality rules, pipelines and analytical solutions.
+          </p>
+
           <div class="tag-list">
             <span class="tag">Python</span>
+            <span class="tag">Machine Learning</span>
             <span class="tag">PySpark</span>
             <span class="tag">Data Modeling</span>
             <span class="tag">ETL / ELT</span>
@@ -749,7 +878,11 @@
 
         <div class="info-box">
           <h3>Automation & IT Governance</h3>
-          <p>Process automation, business controls, project governance and stakeholder support.</p>
+
+          <p>
+            Process automation, business controls, project governance and stakeholder support.
+          </p>
+
           <div class="tag-list">
             <span class="tag">Power Automate</span>
             <span class="tag">Power Apps</span>
@@ -779,8 +912,10 @@
               <div class="role">Senior Process Analyst</div>
               <div class="company">HITSS Brasil</div>
             </div>
+
             <div class="period">Feb 2026 – Present</div>
           </div>
+
           <ul class="bullet-list">
             <li>Working in Operational Efficiency with a focus on IT project management, BI, automation, data governance, purchasing process controls and strategic reporting.</li>
             <li>Developing dashboards, reports and analytical views to support executive decision-making, operational performance monitoring and data consistency.</li>
@@ -793,10 +928,12 @@
           <div class="experience-top">
             <div>
               <div class="role">Lead Consultant - Development & IT</div>
-              <div class="company">Radisson</div>
+              <div class="company">Radisson | Project-based / Consulting</div>
             </div>
+
             <div class="period">Mar 2025 – Apr 2026</div>
           </div>
+
           <ul class="bullet-list">
             <li>Structured the Development & IT area, defining roadmap, governance model, follow-up rituals and value-based prioritization.</li>
             <li>Designed and standardized ITSM processes, including queues, SLAs, owners, statuses and performance dashboards.</li>
@@ -811,8 +948,10 @@
               <div class="role">Senior Administrative Analyst</div>
               <div class="company">Vale / Adecco</div>
             </div>
+
             <div class="period">Jan 2024 – Dec 2024</div>
           </div>
+
           <ul class="bullet-list">
             <li>Worked with analytics and AI to support executive decision-making, structuring data, analyses and performance indicators.</li>
             <li>Developed predictive models, statistical analyses, executive dashboards, reports and data products for business areas.</li>
@@ -833,54 +972,77 @@
       <div class="grid-2">
         <article class="project-card project-featured">
           <h3>iFood Marketing Analytics</h3>
+
           <div class="project-meta">
             <span>Power BI</span>
             <span>SQL</span>
             <span>Python</span>
+            <span>Machine Learning</span>
             <span>Marketing Analytics</span>
           </div>
+
           <p>
-            Data analytics project focused on customer behavior, consumption patterns,
-            campaign acceptance and business KPIs. The project demonstrates the full
-            analytical workflow from data preparation to dashboard development.
+            End-to-end Marketing Analytics project focused on customer behavior,
+            campaign response prediction, customer segmentation and executive insights.
+            The solution combines SQL, Python, Machine Learning and Power BI to support
+            CRM prioritization, campaign optimization and data-driven marketing decisions.
           </p>
+
           <ul class="bullet-list" style="margin-top: 14px;">
-            <li>Customer segmentation by income, age and consumption behavior.</li>
-            <li>Campaign response and marketing performance analysis.</li>
-            <li>Executive dashboard published through Power BI Service.</li>
-            <li>Documentation and SQL scripts organized for portfolio review.</li>
+            <li>Predictive model to estimate customer campaign response probability.</li>
+            <li>Random Forest model with ROC-AUC of 0.86 and recall of 0.74.</li>
+            <li>KMeans customer segmentation into high-income, balanced and promotion-sensitive groups.</li>
+            <li>Business action plan focused on campaign budget waste, personalization, retention and discount optimization.</li>
+            <li>Executive Power BI dashboard published online.</li>
           </ul>
+
+          <div class="project-highlight">
+            <strong>Business value:</strong>
+            prioritizes customers with higher campaign response probability, supports CRM targeting,
+            reduces discount waste and turns analytical outputs into executive decisions.
+          </div>
+
           <div class="button-row" style="margin-top: 18px;">
             <a class="btn btn-primary" href="https://app.powerbi.com/view?r=eyJrIjoiYjEwMTJjYmEtNTY3YS00ODRlLTgzNGYtYmUwMWEzZTM0NWYzIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9" target="_blank" rel="noopener noreferrer">
               View Dashboard
             </a>
+
             <a class="btn btn-outline" href="https://github.com/Albuquerque777/Albuquerque777.github.io/tree/main/projetos/ifood-marketing-analytics" target="_blank" rel="noopener noreferrer">
-              Documentation
+              Full Project
             </a>
-            <a class="btn btn-outline" href="https://github.com/Albuquerque777/Albuquerque777.github.io/tree/main/projetos/ifood-marketing-analytics/sql" target="_blank" rel="noopener noreferrer">
-              SQL Scripts
+
+            <a class="btn btn-outline" href="https://github.com/Albuquerque777/Albuquerque777.github.io/tree/main/projetos/ifood-marketing-analytics/python/outputs" target="_blank" rel="noopener noreferrer">
+              Model Outputs
+            </a>
+
+            <a class="btn btn-outline" href="https://github.com/Albuquerque777/Albuquerque777.github.io/tree/main/projetos/ifood-marketing-analytics/python" target="_blank" rel="noopener noreferrer">
+              Python Scripts
             </a>
           </div>
         </article>
 
         <article class="project-card">
           <h3>Operational Control & Executive Reporting</h3>
+
           <div class="project-meta">
             <span>BI</span>
             <span>Governance</span>
             <span>Automation</span>
             <span>Process Improvement</span>
           </div>
+
           <p>
             Professional work focused on structuring operational controls, validating data,
             monitoring inconsistencies and creating executive views for leadership.
           </p>
+
           <ul class="bullet-list" style="margin-top: 14px;">
             <li>Operational indicators and management routines.</li>
             <li>Data validation and inconsistency analysis.</li>
             <li>Automation opportunities to reduce manual work.</li>
             <li>Decision-support views for stakeholders and leadership.</li>
           </ul>
+
           <div class="tag-list">
             <span class="tag dark">Power BI</span>
             <span class="tag dark">Excel</span>
@@ -903,18 +1065,20 @@
       <div class="grid-2">
         <div class="info-box">
           <h3>Academic Background</h3>
+
           <ul class="bullet-list">
             <li>Postgraduate Degree in Data Science, Business Intelligence, Big Data and Analytics.</li>
             <li>MBA in Project Management.</li>
             <li>MBA in Logistics and Supply Chain Management.</li>
             <li>MBA in ESG and Corporate Sustainability.</li>
             <li>Technology Degree in Management Processes.</li>
-            <li>Environmental and Sanitary Engineering - UERJ.</li>
+            <li>Environmental and Sanitary Engineering studies - UERJ.</li>
           </ul>
         </div>
 
         <div class="info-box">
           <h3>Certifications & Courses</h3>
+
           <div class="tag-list">
             <span class="tag">Advanced Power BI</span>
             <span class="tag">Advanced Excel</span>
@@ -933,11 +1097,13 @@
       <div class="contact-grid">
         <div>
           <div class="section-kicker">Contact</div>
+
           <h2>Available for Data, BI, Automation and IT project opportunities.</h2>
+
           <p class="lead" style="margin-top: 12px;">
             I am open to opportunities involving Data Analysis, Business Intelligence,
-            Power BI, SQL, Python, Data Engineering fundamentals, operational efficiency,
-            process automation and IT project management.
+            Power BI, SQL, Python, Machine Learning, Data Engineering fundamentals,
+            operational efficiency, process automation and IT project management.
           </p>
 
           <ul class="contact-list">
@@ -945,18 +1111,22 @@
               <span>Email</span>
               <a href="mailto:Alexanderalbuquerquebrazil@gmail.com">Alexanderalbuquerquebrazil@gmail.com</a>
             </li>
+
             <li>
               <span>LinkedIn</span>
               <a href="https://www.linkedin.com/in/alexander-albuquerque-b527a6217" target="_blank" rel="noopener noreferrer">linkedin.com/in/alexander-albuquerque-b527a6217</a>
             </li>
+
             <li>
               <span>WhatsApp</span>
               <a href="https://wa.me/5521993382877" target="_blank" rel="noopener noreferrer">+55 (21) 99338-2877</a>
             </li>
+
             <li>
               <span>GitHub</span>
               <a href="https://github.com/Albuquerque777" target="_blank" rel="noopener noreferrer">github.com/Albuquerque777</a>
             </li>
+
             <li>
               <span>Location</span>
               Rio de Janeiro, Brazil
@@ -966,20 +1136,25 @@
 
         <aside class="availability">
           <h3>Career interests</h3>
+
           <p>
             Data Analyst, BI Analyst, Power BI Analyst, Analytics Engineer, BI Engineer,
-            Process & Data Analyst, Automation Analyst and IT Project Management roles.
+            Marketing Analytics, CRM Analytics, Process & Data Analyst, Automation Analyst
+            and IT Project Management roles.
           </p>
+
           <div class="tag-list">
             <span class="tag">Remote</span>
             <span class="tag">Hybrid</span>
             <span class="tag">Rio de Janeiro</span>
             <span class="tag">Brazil</span>
           </div>
+
           <div class="button-row" style="margin-top: 18px;">
             <a class="btn btn-primary" href="mailto:Alexanderalbuquerquebrazil@gmail.com">
               Send Email
             </a>
+
             <a class="btn btn-light" href="https://wa.me/5521993382877" target="_blank" rel="noopener noreferrer">
               WhatsApp
             </a>
@@ -990,7 +1165,7 @@
   </main>
 
   <footer>
-    <p>© 2026 Alexander Albuquerque | Data, Business Intelligence, Automation and IT Project Management Portfolio</p>
+    <p>© 2026 Alexander Albuquerque | Data, Business Intelligence, Machine Learning, Automation and IT Project Management Portfolio</p>
   </footer>
 </body>
 </html>
