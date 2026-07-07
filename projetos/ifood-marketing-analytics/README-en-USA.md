@@ -1,184 +1,108 @@
 # iFood Marketing Analytics
 
-🇧🇷 Portuguese version: [README-pt-BR.md](README-pt-BR.md)
+End-to-end Marketing Analytics project using **SQL, Python, Machine Learning and Power BI**.
 
-## About the Project
+## Overview
 
-This project aims to analyze customer data and marketing campaign performance, simulating a business scenario in which the company needs to better understand customer profiles, identify purchasing patterns and improve the effectiveness of marketing campaigns.
+This project analyzes customer behavior, consumption patterns and marketing campaign performance. It simulates a business scenario where a food delivery and marketplace company needs to improve campaign targeting, reduce discount waste, personalize CRM actions and support executive decision-making.
 
-The solution was developed using SQL for data modeling and data preparation, Power BI for executive dashboarding and data visualization, and Python for exploratory analysis and customer segmentation.
+The project includes:
 
----
+- SQL data preparation and business KPIs
+- Python exploratory analysis
+- Campaign response prediction model
+- Customer segmentation with KMeans
+- Executive business insights
+- Power BI dashboard
 
-## Business Problem
+> This project uses a public/educational marketing dataset and should not be interpreted as official iFood data.
 
-The company needs to answer questions such as:
+## Power BI Dashboard
 
-- What is the profile of the highest-spending customers?
-- Which customers have the highest potential to respond to marketing campaigns?
-- How do customers behave by income range and age group?
-- Which purchase channels are most used?
-- What is the campaign response rate?
-- Are there high-income customers with low consumption who could be better targeted?
+[View Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYjEwMTJjYmEtNTY3YS00ODRlLTgzNGYtYmUwMWEzZTM0NWYzIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9)
 
----
+## Business Objectives
 
-## Analysis Objectives
+- Understand customer behavior and spending patterns
+- Identify customers with higher campaign response probability
+- Segment customers into actionable business groups
+- Support CRM and marketing campaign prioritization
+- Reduce campaign budget waste and discount dependency
+- Generate executive insights for decision-making
 
-- Clean, organize and structure customer data.
-- Create executive business indicators.
-- Segment customers by income, age, consumption and campaign response.
-- Generate analytical queries to support marketing decisions.
-- Prepare a structured dataset for Power BI dashboards.
-- Support future exploratory analysis and predictive models in Python.
+## Key Questions
 
----
+- What is the customer profile?
+- Which customers have higher spending?
+- Which customers are more likely to respond to campaigns?
+- Which customer segments should receive premium, standard or promotional offers?
+- Which business pains can be solved with data and analytics?
+- What KPIs should be monitored by executives?
 
-## Tools Used
+## Main Results
+
+### Business KPIs
+
+- Total customers: **2,205**
+- Campaign response rate: **20.77%**
+- Campaign responders: **458**
+- Total revenue proxy: **1,338,042**
+- Average spending per customer: **606.82**
+- Top 20% customer revenue share: **52.28%**
+
+### Predictive Model
+
+A balanced Random Forest model was used to estimate campaign response probability.
+
+Model performance:
+
+- ROC-AUC: **0.8638**
+- PR-AUC: **0.6606**
+- Precision: **0.5620**
+- Recall: **0.7391**
+- F1 Score: **0.6385**
+
+### Customer Segmentation
+
+KMeans clustering identified three actionable customer groups:
+
+1. **High-income potential customers**
+2. **Balanced customers**
+3. **Promotion-sensitive customers**
+
+## Generated Outputs
+
+Python outputs are available in:
+
+[Python Outputs](python/outputs/)
+
+Main output categories:
+
+- Business KPIs
+- Predictive model metrics
+- Campaign response predictions
+- Feature importance
+- ROC curve
+- Lift by decile
+- Customer segmentation profiles
+- Executive business insights
+
+## Data Science Note
+
+The predictive model estimates campaign response propensity, not causal uplift. To measure true incremental impact, the next step would be A/B testing, uplift modeling and ROI simulation.
+
+## Tools
 
 - SQL
+- Python
+- Pandas
+- Scikit-learn
+- Matplotlib
 - Power BI
 - Power Query
 - DAX
-- Python
 - GitHub
-
----
-
-## Project Structure
-
-```text
-ifood-marketing-analytics/
-│
-├── README.md
-├── README-pt-BR.md
-│
-├── sql/
-│   ├── 01-criacao-tabelas.sql
-│   ├── 02tratamentodados.sql
-│   ├── 03-kpis-negocio.sql
-│   └── 04-segmentacao-clientes.sql
-│
-├── python/
-│   ├── README.md
-│   ├── requirements.txt
-│   └── 01_exploratory_analysis.py
-│
-├── data/
-│   └── README.md
-│
-└── powerbi/
-```
-
----
-
-## SQL Steps
-
-At this stage, SQL scripts were created to structure, clean and analyze the project data.
-
-### 1. Table Creation
-
-File: `01-criacao-tabelas.sql`
-
-This file creates the main project table, containing information about customers, income, purchases, marketing campaigns and complaints.
-
-### 2. Data Preparation
-
-File: `02tratamentodados.sql`
-
-This file creates a cleaned analytical view of the dataset, calculating new fields such as age, total dependents, total spending and total purchases.
-
-### 3. Business Indicators
-
-File: `03-kpis-negocio.sql`
-
-This file creates executive KPIs such as total customers, average income, average spending, total purchases and campaign response rate.
-
-### 4. Customer Segmentation
-
-File: `04-segmentacao-clientes.sql`
-
-This file segments customers by age group, income range, consumption profile, purchase behavior and campaign response.
-
----
-
-## Python Steps
-
-The Python stage aims to support exploratory analysis, data validation, feature creation and future customer segmentation.
-
-Planned analyses include:
-
-- Data loading and inspection
-- Missing value analysis
-- Customer age calculation
-- Total spending calculation
-- Total purchases calculation
-- Income and consumption analysis
-- Campaign response analysis
-- Customer segmentation
-- Preparation for future predictive models
-
----
-
-## Power BI Steps
-
-The Power BI stage will be used to build an executive dashboard based on the treated and analyzed data.
-
-Planned dashboard pages:
-
-- Executive Overview
-- Customer Profile
-- Consumption Analysis
-- Campaign Performance
-- Customer Segmentation
-
----
-
-## Main Indicators Analyzed
-
-- Total customers
-- Average income
-- Average age
-- Total revenue analyzed
-- Average spending per customer
-- Average purchases per customer
-- Campaign response rate
-- Complaint rate
-- Consumption by income range
-- Consumption by age group
-- High-value customers
-- High-income customers with low consumption
-
----
-
-## Expected Business Value
-
-This project demonstrates how data can be used to support marketing decisions by identifying customer segments, consumption patterns and campaign opportunities.
-
-The analysis can help the business:
-
-- Improve campaign targeting
-- Identify high-value customer groups
-- Understand customer purchasing behavior
-- Support executive decision-making with KPIs
-- Prepare data for BI dashboards and future predictive models
-
----
-
-## Next Steps
-
-- Upload the anonymized dataset.
-- Run the exploratory analysis in Python.
-- Generate analytical outputs and charts.
-- Build the executive dashboard in Power BI.
-- Add dashboard screenshots to the project.
-- Create customer segmentation analysis.
-- Develop a future campaign response propensity model.
-
----
 
 ## Author
 
 Alexander Albuquerque
-
-Senior Process Analyst | Data & BI | SQL | Power BI | Python | Data Engineering | IT Project Management | Automation
