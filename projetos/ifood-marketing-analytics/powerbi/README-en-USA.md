@@ -1,100 +1,32 @@
-# Power BI - iFood Marketing Analytics
+# iFood Marketing Analytics
 
-## About This Folder
+## About the Project
 
-This folder contains the Power BI stage of the iFood Marketing Analytics project.
+The **iFood Marketing Analytics** project was developed to analyze customer, consumption, and marketing campaign data, transforming raw data into strategic insights to support business decision-making.
 
-The objective is to transform the treated and analyzed data into an executive dashboard focused on customer behavior, consumption patterns and marketing campaign performance.
+The project includes data treatment, SQL queries, exploratory data analysis with Python, and the development of an executive dashboard in Power BI.
 
 ---
 
-## Dashboard Objective
+## Objective
 
-The Power BI dashboard aims to provide a clear and executive view of the main business indicators related to customers and marketing campaigns.
+The main objective is to understand customer profiles, identify consumption patterns, and evaluate marketing campaign performance.
 
-The dashboard will help answer questions such as:
+Business questions addressed:
 
 - What is the customer profile?
-- Which customer segments generate the highest spending?
-- What is the campaign response rate?
-- Which purchase channels are most used?
-- How does consumption vary by age group and income range?
-- Which customers represent potential marketing opportunities?
+- Which customer segments generate the highest consumption?
+- Which groups respond better to marketing campaigns?
+- How does consumption vary by age, income, and family profile?
+- Which customers have the highest potential for future marketing actions?
 
 ---
 
-## Planned Dashboard Pages
+## Power BI Dashboard
 
-### 1. Executive Overview
+The dashboard was published in Power BI Service and is available through the link below:
 
-Main business KPIs and general project summary.
-
-Expected indicators:
-
-- Total customers
-- Total revenue analyzed
-- Average income
-- Average customer age
-- Average spending per customer
-- Average purchases per customer
-- Campaign response rate
-- Complaint rate
-
----
-
-### 2. Customer Profile
-
-Customer demographic and behavioral analysis.
-
-Expected visuals:
-
-- Customers by age group
-- Customers by income range
-- Customers by education level
-- Customers by marital status
-- Dependents per customer
-
----
-
-### 3. Consumption Analysis
-
-Analysis of customer spending behavior.
-
-Expected visuals:
-
-- Total spending by product category
-- Average spending by age group
-- Average spending by income range
-- High-value customer groups
-- Purchase behavior by channel
-
----
-
-### 4. Campaign Performance
-
-Marketing campaign performance analysis.
-
-Expected visuals:
-
-- Campaign response rate
-- Responses by income range
-- Responses by age group
-- Responses by consumption segment
-- Comparison between customers who responded and did not respond
-
----
-
-### 5. Customer Segmentation
-
-Customer grouping based on income, age, spending and campaign response.
-
-Expected segments:
-
-- High-value customers
-- Medium-value customers
-- Low-value customers
-- High-income customers with low consumption
-- Customers with high campaign response potential
+🔗 [Access the Power BI Dashboard](https://app.powerbi.com/links/RwSfvbJiak?ctid=659ce2b8-0714-4198-8c38-dc9b60aabb57&pbi_source=linkShare)
 
 ---
 
@@ -105,74 +37,46 @@ Expected segments:
 - DAX
 - SQL
 - Python
-- Data Modeling
+- GitHub
 - Business Intelligence
+- Data Analysis
 
 ---
 
-## Expected Files
+## Project Steps
+
+1. Data understanding
+2. Data cleaning and standardization
+3. Exploratory data analysis with Python
+4. Analytical queries using SQL
+5. Data modeling in Power BI
+6. DAX measures creation
+7. Dashboard development and publication
+
+---
+
+## Analyzed Indicators
+
+- Total customers
+- Total revenue analyzed
+- Average income
+- Average customer age
+- Average spending per customer
+- Campaign response rate
+- Consumption by product category
+- Customer profile by age group and income range
+
+---
+
+## Repository Structure
 
 ```text
-powerbi/
+ifood-marketing-analytics/
 │
-├── README.md
-├── dashboard-ifood.pbix
-├── dashboard-ifood.pdf
-│
-└── images/
-    ├── executive-overview.png
-    ├── customer-profile.png
-    ├── consumption-analysis.png
-    ├── campaign-performance.png
-    └── customer-segmentation.png
-```
-
----
-
-## Planned DAX Measures
-
-Examples of expected DAX measures:
-
-```DAX
-Total Customers = COUNTROWS(Customers)
-
-Total Revenue = SUM(Customers[Total Spending])
-
-Average Income = AVERAGE(Customers[Income])
-
-Average Spending = AVERAGE(Customers[Total Spending])
-
-Campaign Response Rate =
-DIVIDE(
-    SUM(Customers[Response]),
-    COUNTROWS(Customers)
-)
-```
-
----
-
-## Expected Business Value
-
-The Power BI dashboard will support business decision-making by presenting customer behavior and marketing performance in a clear, visual and executive format.
-
-The dashboard can help the business:
-
-- Improve marketing campaign targeting
-- Identify high-value customer segments
-- Understand consumption behavior
-- Monitor campaign performance
-- Support data-driven decision-making
-
----
-
-## Status
-
-Power BI dashboard development is planned as the next stage of the project after the SQL and Python steps.
-
----
-
-## Author
-
-Alexander Albuquerque
-
-Senior Process Analyst | Data & BI | SQL | Power BI | Python | Data Engineering | IT Project Management | Automation
+├── data/
+├── python/
+├── sql/
+├── powerbi/
+├── assets/
+├── README-pt-BR.md
+└── README-en-USA.md
