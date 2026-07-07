@@ -1,0 +1,4 @@
+threshold,accuracy,precision,recall,f1_score,roc_auc,average_precision_pr_auc,positive_rate_actual,positive_rate_predicted,model
+0.5,0.8345,0.59,0.6484,0.6178,0.8737,0.7072,0.2063,0.2268,random_forest_balanced
+0.5,0.8594,0.7377,0.4945,0.5921,0.8609,0.6179,0.2063,0.1383,gradient_boosting
+0.5,0.7732,0.4694,0.7582,0.5798,0.8358,0.546,0.2063,0.3333,logistic_regression_balanced

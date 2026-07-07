@@ -1,0 +1,101 @@
+age,income,recency,total_spending,total_purchases,customer_value_group,recency_risk_group,actual_response,response_probability,predicted_response,propensity_decile,recommended_action
+60,98777,23,2008,19,Very high value,Recently active,1,0.994103,1,10,VIP priority: send high-value personalized offer
+60,98777,23,2008,19,Very high value,Recently active,1,0.991394,1,10,VIP priority: send high-value personalized offer
+59,88347,32,2116,20,Very high value,Moderate recency,1,0.985173,1,10,VIP priority: send high-value personalized offer
+34,83512,31,2157,21,Very high value,Moderate recency,1,0.983653,1,10,VIP priority: send high-value personalized offer
+69,94642,35,2211,21,Very high value,Moderate recency,1,0.983597,1,10,VIP priority: send high-value personalized offer
+31,88420,87,2069,19,Very high value,Very high recency risk,1,0.982704,1,10,VIP priority: send high-value personalized offer
+61,89120,78,1924,18,Very high value,Very high recency risk,1,0.978596,1,10,VIP priority: send high-value personalized offer
+47,35860,37,49,4,Low value,Moderate recency,1,0.976051,1,10,VIP priority: send high-value personalized offer
+47,35860,37,49,4,Low value,Moderate recency,1,0.974473,1,10,VIP priority: send high-value personalized offer
+43,96876,79,1941,23,Very high value,Very high recency risk,1,0.973138,1,10,VIP priority: send high-value personalized offer
+32,90247,27,1621,14,Very high value,Moderate recency,1,0.972031,1,10,VIP priority: send high-value personalized offer
+74,82657,71,2283,22,Very high value,High recency,1,0.971503,1,10,VIP priority: send high-value personalized offer
+45,83829,78,1862,17,Very high value,Very high recency risk,1,0.971413,1,10,VIP priority: send high-value personalized offer
+45,83829,78,1862,17,Very high value,Very high recency risk,1,0.971413,1,10,VIP priority: send high-value personalized offer
+37,92491,71,2034,24,Very high value,High recency,1,0.971001,1,10,VIP priority: send high-value personalized offer
+47,85844,62,1958,19,Very high value,High recency,1,0.970466,1,10,VIP priority: send high-value personalized offer
+38,84169,9,1919,19,Very high value,Recently active,1,0.968076,1,10,VIP priority: send high-value personalized offer
+38,84169,9,1919,19,Very high value,Recently active,1,0.967507,1,10,VIP priority: send high-value personalized offer
+48,84906,98,1631,23,Very high value,Very high recency risk,1,0.966823,1,10,VIP priority: send high-value personalized offer
+48,83151,80,2346,22,Very high value,Very high recency risk,1,0.966678,1,10,VIP priority: send high-value personalized offer
+67,94384,62,2302,18,Very high value,High recency,1,0.966502,1,10,VIP priority: send high-value personalized offer
+63,82347,38,1853,24,Very high value,Moderate recency,1,0.965975,1,10,VIP priority: send high-value personalized offer
+57,72968,8,1958,18,Very high value,Recently active,1,0.965497,1,10,VIP priority: send high-value personalized offer
+68,83844,57,1574,19,Very high value,High recency,1,0.965384,1,10,VIP priority: send high-value personalized offer
+68,83844,57,1574,19,Very high value,High recency,1,0.964874,1,10,VIP priority: send high-value personalized offer
+34,82333,60,1822,17,Very high value,High recency,1,0.964444,1,10,VIP priority: send high-value personalized offer
+48,84906,98,1631,23,Very high value,Very high recency risk,1,0.963973,1,10,VIP priority: send high-value personalized offer
+47,35860,37,49,4,Low value,Moderate recency,1,0.963789,1,10,VIP priority: send high-value personalized offer
+50,93790,16,2349,25,Very high value,Recently active,1,0.963449,1,10,VIP priority: send high-value personalized offer
+68,83844,57,1574,19,Very high value,High recency,1,0.96332,1,10,VIP priority: send high-value personalized offer
+51,55212,65,1182,17,Very high value,High recency,1,0.963045,1,10,VIP priority: send high-value personalized offer
+47,35860,37,49,4,Low value,Moderate recency,1,0.961302,1,10,VIP priority: send high-value personalized offer
+46,83145,14,1833,25,Very high value,Recently active,1,0.961143,1,10,VIP priority: send high-value personalized offer
+67,94384,62,2302,18,Very high value,High recency,1,0.96073,1,10,VIP priority: send high-value personalized offer
+39,87171,27,1298,24,Very high value,Moderate recency,1,0.960442,1,10,VIP priority: send high-value personalized offer
+47,92955,35,1778,22,Very high value,Moderate recency,1,0.960091,1,10,VIP priority: send high-value personalized offer
+49,66303,56,1286,18,Very high value,High recency,1,0.959367,1,10,VIP priority: send high-value personalized offer
+71,62845,3,1178,17,Very high value,Recently active,1,0.958291,1,10,VIP priority: send high-value personalized offer
+65,75261,17,1743,16,Very high value,Recently active,1,0.958103,1,10,VIP priority: send high-value personalized offer
+72,92344,9,1899,20,Very high value,Recently active,1,0.95782,1,10,VIP priority: send high-value personalized offer
+73,91712,47,2217,27,Very high value,Moderate recency,1,0.957761,1,10,VIP priority: send high-value personalized offer
+35,72903,74,2013,20,Very high value,Very high recency risk,1,0.957661,1,10,VIP priority: send high-value personalized offer
+32,87679,62,2524,28,Very high value,High recency,1,0.957367,1,10,VIP priority: send high-value personalized offer
+38,73450,85,1804,26,Very high value,Very high recency risk,1,0.957301,1,10,VIP priority: send high-value personalized offer
+46,82584,26,1435,15,Very high value,Moderate recency,1,0.957201,1,10,VIP priority: send high-value personalized offer
+71,62845,3,1178,17,Very high value,Recently active,1,0.95706,1,10,VIP priority: send high-value personalized offer
+64,91249,84,1676,22,Very high value,Very high recency risk,1,0.956643,1,10,VIP priority: send high-value personalized offer
+58,82571,28,1686,24,Very high value,Moderate recency,1,0.956506,1,10,VIP priority: send high-value personalized offer
+43,82326,30,2257,21,Very high value,Moderate recency,1,0.956468,1,10,VIP priority: send high-value personalized offer
+64,90226,26,2352,23,Very high value,Moderate recency,1,0.955965,1,10,VIP priority: send high-value personalized offer
+45,81169,47,2089,21,Very high value,Moderate recency,0,0.955355,1,10,VIP priority: send high-value personalized offer
+50,75345,16,2087,19,Very high value,Recently active,1,0.954926,1,10,VIP priority: send high-value personalized offer
+45,79174,2,2043,18,Very high value,Recently active,1,0.95439,1,10,VIP priority: send high-value personalized offer
+63,82347,38,1853,24,Very high value,Moderate recency,1,0.954171,1,10,VIP priority: send high-value personalized offer
+66,85683,6,1789,16,Very high value,Recently active,1,0.953861,1,10,VIP priority: send high-value personalized offer
+59,84865,1,1688,15,Very high value,Recently active,1,0.953856,1,10,VIP priority: send high-value personalized offer
+55,83003,18,1674,21,Very high value,Recently active,1,0.953324,1,10,VIP priority: send high-value personalized offer
+51,74918,78,2047,20,Very high value,Very high recency risk,1,0.951942,1,10,VIP priority: send high-value personalized offer
+51,55212,65,1182,17,Very high value,High recency,1,0.951021,1,10,VIP priority: send high-value personalized offer
+51,75759,46,2486,25,Very high value,Moderate recency,1,0.949459,1,10,VIP priority: send high-value personalized offer
+74,64014,56,444,15,High value,High recency,1,0.94897,1,10,VIP priority: send high-value personalized offer
+77,77598,53,1735,25,Very high value,High recency,1,0.948927,1,10,VIP priority: send high-value personalized offer
+73,81574,89,1798,17,Very high value,Very high recency risk,1,0.948864,1,10,VIP priority: send high-value personalized offer
+33,75794,33,1682,24,Very high value,Moderate recency,1,0.946425,1,10,VIP priority: send high-value personalized offer
+34,80141,20,2091,21,Very high value,Recently active,1,0.946136,1,10,VIP priority: send high-value personalized offer
+29,90638,29,2525,17,Very high value,Moderate recency,1,0.946058,1,10,VIP priority: send high-value personalized offer
+29,90638,29,2525,17,Very high value,Moderate recency,1,0.945735,1,10,VIP priority: send high-value personalized offer
+74,64014,56,444,15,High value,High recency,1,0.945304,1,10,VIP priority: send high-value personalized offer
+72,83790,81,1615,24,Very high value,Very high recency risk,1,0.945038,1,10,VIP priority: send high-value personalized offer
+66,90933,90,1685,14,Very high value,Very high recency risk,1,0.945035,1,10,VIP priority: send high-value personalized offer
+33,95169,1,1901,11,Very high value,Recently active,1,0.944527,1,10,VIP priority: send high-value personalized offer
+50,81205,43,2009,18,Very high value,Moderate recency,1,0.943542,1,10,VIP priority: send high-value personalized offer
+38,69109,10,1555,19,Very high value,Recently active,1,0.943366,1,10,VIP priority: send high-value personalized offer
+71,80360,56,2231,13,Very high value,High recency,1,0.943224,1,10,VIP priority: send high-value personalized offer
+51,76653,91,2279,22,Very high value,Very high recency risk,1,0.940883,1,10,VIP priority: send high-value personalized offer
+38,69109,10,1555,19,Very high value,Recently active,1,0.940012,1,10,VIP priority: send high-value personalized offer
+39,72066,55,1792,16,Very high value,High recency,1,0.939886,1,10,VIP priority: send high-value personalized offer
+45,76068,67,1376,9,Very high value,High recency,1,0.939423,1,10,VIP priority: send high-value personalized offer
+58,71670,8,1766,14,Very high value,Recently active,1,0.938813,1,10,VIP priority: send high-value personalized offer
+74,82800,23,1315,25,Very high value,Recently active,1,0.937197,1,10,VIP priority: send high-value personalized offer
+48,80134,40,1690,14,Very high value,Moderate recency,1,0.93679,1,10,VIP priority: send high-value personalized offer
+44,75825,40,2209,22,Very high value,Moderate recency,1,0.93598,1,10,VIP priority: send high-value personalized offer
+63,78618,87,2153,21,Very high value,Very high recency risk,1,0.935833,1,10,VIP priority: send high-value personalized offer
+53,77766,97,1529,32,Very high value,Very high recency risk,1,0.933805,1,10,VIP priority: send high-value personalized offer
+55,81051,43,1501,22,Very high value,Moderate recency,1,0.93285,1,10,VIP priority: send high-value personalized offer
+53,77766,97,1529,32,Very high value,Very high recency risk,1,0.93266,1,10,VIP priority: send high-value personalized offer
+55,70924,41,1363,19,Very high value,Moderate recency,1,0.932583,1,10,VIP priority: send high-value personalized offer
+55,70924,41,1363,19,Very high value,Moderate recency,1,0.932138,1,10,VIP priority: send high-value personalized offer
+37,90687,98,1779,16,Very high value,Very high recency risk,1,0.93185,1,10,VIP priority: send high-value personalized offer
+33,51563,60,1250,18,Very high value,High recency,1,0.93068,1,10,VIP priority: send high-value personalized offer
+29,90273,32,1991,18,Very high value,Moderate recency,1,0.930595,1,10,VIP priority: send high-value personalized offer
+40,76412,15,1808,17,Very high value,Recently active,1,0.929037,1,10,VIP priority: send high-value personalized offer
+43,61996,27,1230,18,Very high value,Moderate recency,1,0.928123,1,10,VIP priority: send high-value personalized offer
+67,70503,73,1727,15,Very high value,High recency,1,0.927947,1,10,VIP priority: send high-value personalized offer
+39,91065,33,1474,25,Very high value,Moderate recency,1,0.927932,1,10,VIP priority: send high-value personalized offer
+38,79908,30,1772,18,Very high value,Moderate recency,1,0.927731,1,10,VIP priority: send high-value personalized offer
+73,77632,73,2252,12,Very high value,High recency,1,0.927621,1,10,VIP priority: send high-value personalized offer
+51,67369,81,1461,21,Very high value,Very high recency risk,1,0.92754,1,10,VIP priority: send high-value personalized offer
+76,80184,19,1902,19,Very high value,Recently active,1,0.927538,1,10,VIP priority: send high-value personalized offer
+42,85738,41,1371,20,Very high value,Moderate recency,1,0.926744,1,10,VIP priority: send high-value personalized offer

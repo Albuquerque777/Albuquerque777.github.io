@@ -1,0 +1,2 @@
+threshold,accuracy,precision,recall,f1_score,roc_auc,average_precision_pr_auc,positive_rate_actual,positive_rate_predicted
+0.478,0.8254,0.562,0.7391,0.6385,0.8638,0.6606,0.2086,0.2744

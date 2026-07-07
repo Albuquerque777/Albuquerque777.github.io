@@ -1,0 +1,4 @@
+customer_segment,business_segment_name,customers,customer_share,main_business_pain,recommended_action,campaign_strategy
+0,High-income potential customers,752,0.341,Customers with purchasing power but not necessarily maximum conversion,"Test premium categories, convenience bundles and quality-focused communication.","Premium offers, quality communication, high-ticket categories. Prioritize because historical response is above baseline."
+1,Balanced customers,845,0.3832,General audience requiring standard personalization,Use standard segmented campaigns and monitor migration to other groups.,"Baseline CRM, seasonal campaigns, category-based recommendations."
+2,Promotion-sensitive customers,608,0.2757,Margin pressure caused by customers highly dependent on discounts,Use controlled discounts and test minimum discount needed to convert.,"A/B test coupon levels, bundles, limited-time offers."
