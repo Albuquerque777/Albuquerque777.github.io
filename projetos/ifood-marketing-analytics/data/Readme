@@ -1,0 +1,47 @@
+# Data Layer
+
+This folder contains the dataset used in the iFood Marketing Analytics project.
+
+## Dataset
+
+Expected file:
+
+```text
+ifood_marketing.csv
+```
+
+## Important Note
+
+This project uses a public/educational marketing dataset and should not be interpreted as official iFood data.
+
+The dataset is used only for portfolio, learning and demonstration purposes.
+
+## Main Fields
+
+Examples of fields used in the analysis:
+
+- Customer ID / Index
+- Income
+- Age
+- Recency
+- Customer days
+- Product spending columns
+- Purchase channel columns
+- Campaign acceptance columns
+- Education
+- Marital status
+- Response
+
+## Data Preparation
+
+The Python and SQL layers use this dataset to generate:
+
+- Treated analytical base
+- Business KPIs
+- Customer segmentation
+- Campaign response prediction
+- Executive business insights
+
+## Privacy
+
+No real personal identifiable information is used in this project.
