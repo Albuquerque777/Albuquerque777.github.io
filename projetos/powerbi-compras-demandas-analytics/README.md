@@ -1,85 +1,147 @@
-# Power BI - Compras, Demandas e Comparativo Compras x Demandas
+# Power BI - Compras, Demandas e Cobertura Cadastral
 
-## Sobre o projeto
+## Sobre o Projeto
 
-Este projeto apresenta um conjunto de dashboards desenvolvidos em Power BI para análise executiva de **Compras**, **Demandas** e do **comparativo entre as duas bases**.
+Este projeto apresenta um conjunto de dashboards desenvolvidos em **Power BI** para análise executiva de **Compras**, **Demandas** e do **comparativo entre as duas bases**.
 
-O objetivo é demonstrar como dados operacionais podem ser transformados em indicadores executivos para acompanhamento de carteira, análise de status, processos em andamento, resultados encerrados, inconsistências cadastrais e cobertura entre bases.
+O objetivo é transformar dados operacionais em indicadores executivos para acompanhamento de carteira, análise de status, processos em andamento, processos encerrados, ganhos, perdas, inconsistências cadastrais e cobertura entre bases.
 
-Os arquivos foram organizados para fins de portfólio profissional. Antes de publicar, revise se todos os dados, nomes, IDs, clientes e informações sensíveis estão anonimizados.
+O projeto foi estruturado com foco em portfólio profissional, utilizando dados anonimizados/adaptados e relatórios publicados no Power BI Service.
 
 ---
 
-## Dashboards incluídos
+## Acessar os Dashboards Publicados
 
-### 1. Relatório de Compras
+| Dashboard | Descrição | Link |
+|---|---|---|
+| Comparativo Compras x Demandas | Painel para análise de cobertura cadastral entre processos de Compras e a base de Demandas. | [Acessar Dashboard](https://app.powerbi.com/view?r=eyJrIjoiODc2YmYyYjAtNjA0Mi00NGY3LWE5ZTktNzE4YWEzYzUzMGUzIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9) |
+| Relatório de Demandas | Painel executivo para análise da carteira de demandas, oportunidades, ganhos, perdas, andamento, probabilidade e produtos/soluções. | [Acessar Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNWRhNTEzODAtNjViYS00MjVkLTgxM2QtMDM5ZjAzM2EyMzJkIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9) |
+| Relatório de Compras | Painel executivo para análise de processos de compras, ganhos, andamento, sem contratação, aging, encerrados e valor financeiro. | [Acessar Dashboard](https://app.powerbi.com/view?r=eyJrIjoiODk4MTBhYjctYjY1MC00MjQ3LWJhMDgtZWM3NDc4MWEwOTBmIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9) |
 
-Painel voltado para análise dos processos formais de compra, contratação, cotação ou aquisição.
+> Observação: os dashboards foram publicados com dados anonimizados/adaptados para fins de portfólio. As bases originais e arquivos PBIX não são disponibilizados publicamente.
 
-Principais análises:
+---
+
+## Dashboards Desenvolvidos
+
+O projeto é composto por três frentes principais:
+
+1. **Relatório de Compras**
+2. **Relatório de Demandas**
+3. **Comparativo Compras x Demandas**
+
+Cada dashboard possui um objetivo específico, mas todos seguem a mesma proposta: transformar dados operacionais em indicadores claros para apoiar análise, acompanhamento e tomada de decisão.
+
+---
+
+# 1. Relatório de Compras
+
+## Objetivo
+
+O Relatório de Compras acompanha processos formais de contratação, cotação, negociação ou aquisição.
+
+A carteira de compras foi organizada em três grupos principais:
+
+- **Ganho**
+- **Em Andamento**
+- **Sem Contratação**
+
+A visão permite acompanhar processos abertos, encerrados, valor financeiro, responsáveis, torres, tipos de contratação, tipos de registro, aging e taxa de conclusão.
+
+---
+
+## Principais Análises
 
 - Total de processos de compras
 - Valor total da carteira
 - Processos em andamento
+- Valor em andamento
 - Processos ganhos
+- Valor ganho
 - Processos sem contratação
+- Valor sem contratação
 - Taxa de conclusão
-- Aging dos processos em aberto
-- Encerrados por ganho e sem contratação
-- Distribuição por gestor, torre, tipo de contratação e tipo de registro
-
-Principais abas:
-
-- Visão Geral
-- Em Andamento
-- Encerrados
+- Aging médio dos processos em aberto
+- Maiores processos críticos
+- Processos encerrados por valor
+- Distribuição por gestor, torre, etapa, contratação e registro
 
 ---
 
-### 2. Relatório de Demandas
+## Prints do Relatório de Compras
 
-Painel voltado para análise da carteira de demandas, oportunidades ou necessidades registradas para acompanhamento comercial e operacional.
+### Compras - Visão Geral
 
-Principais análises:
+![Compras - Visão Geral](imagens/compras-visao-geral.png)
+
+### Compras - Em Andamento
+
+![Compras - Em Andamento](imagens/compras-em-andamento.png)
+
+### Compras - Encerrados
+
+![Compras - Encerrados](imagens/compras-encerrados.png)
+
+---
+
+# 2. Relatório de Demandas
+
+## Objetivo
+
+O Relatório de Demandas apresenta uma visão executiva da carteira de demandas, oportunidades, projetos ou necessidades registradas para acompanhamento.
+
+O painel permite acompanhar demandas ganhas, perdidas e em andamento, além de valor financeiro, win rate, probabilidade, produto/solução, gestores, etapas e evolução mensal.
+
+---
+
+## Principais Análises
 
 - Total de demandas
 - Valor total da carteira
-- Demandas ganhas
-- Demandas perdidas
-- Demandas em andamento
-- Win Rate
-- Distribuição por etapa, probabilidade, gestor e produto/solução
-- Evolução mensal das oportunidades
-
-Principais abas:
-
-- Visão Geral
-- Em Andamento
-- Concluídos
-- Detalhamento
-- Inconsistências
+- Quantidade ganha
+- Valor ganho
+- Quantidade perdida
+- Valor perdido
+- Quantidade em andamento
+- Valor em andamento
+- Win rate
+- Probabilidade da demanda
+- Tipo de registro
+- Produto ou solução
+- Evolução mensal por ano
+- Detalhamento das oportunidades
 
 ---
 
-### 3. Comparativo Compras x Demandas
+## Prints do Relatório de Demandas
 
-Painel voltado para análise de cobertura cadastral entre processos de Compras e a base de Demandas.
+### Demandas - Visão Geral
 
-O objetivo é identificar:
+![Demandas - Visão Geral](imagens/demandas-visao-geral.png)
 
-- Processos de Compras localizados em Demandas
-- Processos de Compras não localizados em Demandas
-- Registros existentes somente em Demandas
-- Pendências de ID ou Projeto
-- Duplicidades cadastrais
-- Impacto financeiro das inconsistências
-- Índice de cobertura por gestor
+### Demandas - Em Andamento
+
+![Demandas - Em Andamento](imagens/demandas-em-andamento.png)
+
+### Demandas - Concluídos
+
+![Demandas - Concluídos](imagens/demandas-concluidos.png)
+
+---
+
+# 3. Comparativo Compras x Demandas
+
+## Objetivo
+
+O Comparativo Compras x Demandas tem como objetivo medir a cobertura cadastral entre os processos de Compras e a base de Demandas.
+
+A análise permite identificar quais processos de Compras foram localizados em Demandas, quais não foram encontrados, quais existem apenas na base de Demandas e quais possuem inconsistências cadastrais.
 
 ---
 
 ## Diferença entre Compras e Demandas
 
-**Demandas** representam oportunidades, projetos ou necessidades registradas para acompanhamento da carteira.
+**Demandas** representam oportunidades, necessidades, projetos ou iniciativas cadastradas para acompanhamento da carteira.
 
 **Compras** representam processos formais de contratação, cotação ou aquisição relacionados a essas necessidades.
 
@@ -88,231 +150,6 @@ De forma simples:
 ```text
 Demandas = oportunidades, necessidades ou projetos acompanhados.
 Compras = processos formais de contratação, cotação ou aquisição.
-```
-
-Nem toda demanda necessariamente vira um processo de compras, e nem todo processo de compras será comparável diretamente com a base total de demandas, pois as bases podem ter períodos, regras e finalidades diferentes.
-
----
-
-## Principais indicadores
-
-### Compras
-
-| Indicador | Descrição |
-|---|---|
-| Total Processos | Quantidade total de processos de compras analisados |
-| Valor Total | Soma financeira dos processos |
-| Em Andamento | Processos ainda abertos ou em tratativa |
-| Ganho | Processos concluídos com sucesso |
-| Sem Contratação | Processos cancelados, perdidos, recusados ou declinados |
-| Taxa de Conclusão | Percentual de processos ganhos sobre o total da carteira |
-| Taxa de Sucesso | Percentual de ganhos considerando apenas processos encerrados |
-| Aging | Tempo em que um processo permanece aberto |
-
-### Demandas
-
-| Indicador | Descrição |
-|---|---|
-| Total Demandas | Quantidade total de demandas ou oportunidades |
-| Valor Total | Soma financeira das demandas |
-| Qtd Ganho | Demandas encerradas com sucesso |
-| Valor Ganho | Valor financeiro das demandas ganhas |
-| Qtd Perdido | Demandas encerradas sem sucesso |
-| Valor Perdido | Valor financeiro das demandas perdidas |
-| Em Andamento | Demandas ainda abertas ou em negociação |
-| Win Rate | Percentual de demandas ganhas entre as demandas encerradas |
-
-### Comparativo Compras x Demandas
-
-| Indicador | Descrição |
-|---|---|
-| Localizado | Processo de Compras encontrado na base de Demandas |
-| Não Localizado | Processo de Compras não encontrado em Demandas ou com falha cadastral |
-| Somente Demandas | Registro existente apenas na base de Demandas |
-| Índice de Cobertura | Percentual de processos de Compras localizados em Demandas |
-| Duplicidade | Registro com chave, ID ou projeto duplicado |
-
----
-
-## Glossário e siglas
-
-| Sigla / Termo | Significado |
-|---|---|
-| PT | Etapa técnica do processo |
-| PC | Proposta comercial |
-| PT e PC | Processo que envolve análise técnica e proposta comercial |
-| RFP | Request for Proposal, solicitação de proposta |
-| RFQ | Request for Quotation, solicitação de cotação |
-| RFI | Request for Information, solicitação de informação |
-| Aging | Tempo em aberto desde a data de entrada |
-| Ticket Médio | Valor médio por processo |
-| Win Rate | Taxa de ganho |
-| Opportunity | Nova oportunidade |
-| Renewal | Renovação |
-| Addendum | Aditivo contratual |
-| Quente | Alta probabilidade de conversão |
-| Morno | Probabilidade intermediária de conversão |
-| Frio | Baixa probabilidade de conversão |
-
----
-
-## Regras de negócio
-
-### Compras
-
-Os processos de compras foram agrupados em três classificações principais:
-
-```text
-Ganho
-Em Andamento
-Sem Contratação
-```
-
-A classificação **Sem Contratação** consolida processos com status como:
-
-```text
-Cancelado
-Perdido
-Declinado
-Recusado
-```
-
-### Encerrados
-
-A aba Encerrados considera:
-
-```text
-Ganho + Sem Contratação
-```
-
-Essa visão permite analisar o resultado final dos processos já concluídos, separando o que virou ganho do que foi encerrado sem contratação.
-
-### Em Andamento
-
-A aba Em Andamento considera apenas processos ainda abertos ou em tratativa.
-
-Essa visão é usada para acompanhamento operacional, priorização por aging, valor em aberto e identificação de responsáveis.
-
----
-
-## Principais análises
-
-### Visão Geral
-
-A visão geral apresenta o resumo executivo da carteira, permitindo avaliar rapidamente:
-
-- Volume total de processos
-- Valor financeiro total
-- Quantidade em andamento
-- Quantidade ganha
-- Quantidade sem contratação
-- Taxa de conclusão
-- Distribuição por status, gestor, torre, contratação e registro
-
-### Em Andamento
-
-A análise de processos em andamento permite identificar:
-
-- Processos abertos
-- Valor ainda em tratativa
-- Aging médio
-- Maior aging
-- Principais processos críticos
-- Responsáveis com maior concentração de valor
-- Torres com maior volume em aberto
-
-### Encerrados
-
-A análise de encerrados permite avaliar:
-
-- Total de processos finalizados
-- Valor encerrado
-- Ganhos
-- Processos sem contratação
-- Taxa de sucesso
-- Tempo de conclusão
-- Principais processos encerrados por valor
-
----
-
-## Ferramentas utilizadas
-
-- Power BI
-- Power Query
-- DAX
-- Modelagem de dados
-- Tratamento e padronização de dados
-- Visualização executiva
-- Análise de indicadores
-- Storytelling com dados
-
----
-
-## Competências demonstradas
-
-- Business Intelligence
-- Data Analytics
-- Power BI
-- Power Query
-- DAX
-- Modelagem dimensional
-- Indicadores executivos
-- Tratamento de dados
-- Análise de processos de compras
-- Análise de demandas e oportunidades
-- Gestão de inconsistências cadastrais
-- Criação de dashboards para tomada de decisão
-
----
-
-## Observação sobre os dados
-
-Os dados utilizados neste projeto devem estar anonimizados e adaptados para fins de portfólio.
-
-Informações sensíveis, nomes reais, identificadores internos e dados comerciais confidenciais devem ser removidos ou substituídos por valores genéricos antes da publicação.
-
----
-
-## Prints do projeto
-
-### Relatório de Compras - Visão Geral
-
-![Compras Visão Geral](images/compras-visao-geral.png)
-
-### Relatório de Compras - Em Andamento
-
-![Compras Em Andamento](images/compras-em-andamento.png)
-
-### Relatório de Compras - Encerrados
-
-![Compras Encerrados](images/compras-encerrados.png)
-
-### Relatório de Demandas - Visão Geral
-
-![Demandas Visão Geral](images/demandas-visao-geral.png)
-
-### Comparativo Compras x Demandas
-
-![Comparativo Compras x Demandas](images/comparativo-compras-demandas.png)
-
----
-
-## Arquivos do projeto
-
-```text
-dashboards/
-├── comparativo-compras-demandas.pbix
-├── relatorio-compras.pbix
-└── relatorio-demandas.pbix
-
-images/
-├── compras-visao-geral.png
-├── compras-em-andamento.png
-├── compras-encerrados.png
-├── demandas-visao-geral.png
-└── comparativo-compras-demandas.png
-```
-
 ---
 
 ## Autor
