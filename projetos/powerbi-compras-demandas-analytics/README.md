@@ -1,5 +1,4 @@
-# Power BI - Compras, Demandas e Cobertura Cadastral
-
+# Power BI - Compras, Demandas e Comparativo 
 ## Sobre o Projeto
 
 Este projeto apresenta um conjunto de dashboards desenvolvidos em **Power BI** para análise executiva de **Compras**, **Demandas** e do **comparativo entre as duas bases**.
