@@ -1,4 +1,4 @@
-# Power BI - Compras, Demandas e Compartido Compras x Demandas
+# Power BI - Compras, Demandas e Comparativo Compras x Demandas
 
 ## Sobre o projeto
 
