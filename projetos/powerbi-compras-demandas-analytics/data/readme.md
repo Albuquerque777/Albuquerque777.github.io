@@ -1,4 +1,4 @@
-# Power BI - Compras, Demandas e Cobertura Cadastral
+# Power BI - Compras, Demandas e Comparativo 
 
 ## Sobre o projeto
 
