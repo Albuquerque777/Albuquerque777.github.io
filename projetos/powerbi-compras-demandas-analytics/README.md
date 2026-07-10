@@ -14,9 +14,12 @@ O projeto foi estruturado com foco em portfólio profissional, utilizando dados 
 | Dashboard | Descrição | Link |
 |---|---|---|
 
-| Relatório de Demandas | Painel executivo para análise da carteira de demandas, oportunidades, ganhos, perdas, andamento, probabilidade e produtos/soluções. | [Acessar Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNWRhNTEzODAtNjViYS00MjVkLTgxM2QtMDM5ZjAzM2EyMzJkIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9) |
+| Relatório de Demandas | Painel executivo para análise da carteira de demandas, oportunidades, ganhos, perdas, andamento, probabilidade e produtos/soluções. | [Acessar Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNWRhNTEzODAtNjViYS00MjVkLTgxM2QtMDM5ZjAzM2EyMzJkIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9) |  
+
 | Relatório de Compras | Painel executivo para análise de processos de compras, ganhos, andamento, sem contratação, aging, encerrados e valor financeiro. | [Acessar Dashboard](https://app.powerbi.com/view?r=eyJrIjoiODk4MTBhYjctYjY1MC00MjQ3LWJhMDgtZWM3NDc4MWEwOTBmIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9) |
+
 | Comparativo Compras x Demandas | Painel para análise de cobertura cadastral entre processos de Compras e a base de Demandas. | [Acessar Dashboard](https://app.powerbi.com/view?r=eyJrIjoiODc2YmYyYjAtNjA0Mi00NGY3LWE5ZTktNzE4YWEzYzUzMGUzIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9) |
+
 > Observação: os dashboards foram publicados com dados anonimizados/adaptados para fins de portfólio. As bases originais e arquivos PBIX não são disponibilizados publicamente.
 
 ---
