@@ -1,44 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta name="description" content="Alexander Albuquerque - Data, Business Intelligence, Power BI, SQL, Python, Generative AI, Data Engineering, Automation, Operational Efficiency and IT Project Management portfolio.">
-  <meta name="keywords" content="Data Analyst, Business Intelligence, Power BI, SQL, Python, Generative AI, Applied AI, Data Engineering, Databricks, PySpark, ETL, Automation, IT Project Management, Operational Efficiency, Procurement Analytics, Demand Analytics, Marketing Analytics, CRM Analytics, Portfolio">
-  <meta name="author" content="Alexander C. A. Albuquerque">
+  <meta name="description" content="Alexander Albuquerque - Data, Business Intelligence, Power BI, SQL, Python, Data Engineering, Automation and IT Project Management portfolio." />
+  <meta name="keywords" content="Data Analyst, Business Intelligence, BI Analyst, Power BI, SQL, Python, DAX, Power Query, Data Engineering, Databricks, PySpark, Automation, IT Project Management, PMO, Operational Efficiency, Data Governance, Data Analytics Portfolio" />
+  <meta name="author" content="Alexander C. A. Albuquerque" />
 
-  <meta property="og:title" content="Alexander Albuquerque | Data, BI, AI & Automation Portfolio">
-  <meta property="og:description" content="Portfolio focused on Power BI, SQL, Python, Generative AI, Data Engineering fundamentals, Automation, IT Project Management, Marketing Analytics and Procurement Analytics.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://albuquerque777.github.io/">
+  <meta property="og:title" content="Alexander Albuquerque | Data, BI & IT Project Management Portfolio" />
+  <meta property="og:description" content="Portfolio focused on Data, Business Intelligence, Power BI, SQL, Python, Automation, Data Engineering fundamentals and IT Project Management." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://albuquerque777.github.io/" />
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Alexander Albuquerque | Data, BI, AI & Automation Portfolio">
-  <meta name="twitter:description" content="Data & BI portfolio with SQL, Python, Power BI, Generative AI, Data Engineering fundamentals, Automation and business analytics projects.">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Alexander Albuquerque | Data, BI & IT Project Management Portfolio" />
+  <meta name="twitter:description" content="Data, BI and IT Project Management portfolio with Power BI, SQL, Python, Data Engineering, Automation and governance projects." />
 
-  <title>Alexander Albuquerque | Data, BI, AI & Automation Portfolio</title>
+  <title>Alexander Albuquerque | Data, BI & IT Project Management Portfolio</title>
 
   <style>
     :root {
       --bg: #f4f7fb;
       --surface: #ffffff;
       --surface-soft: #f8fafc;
-      --surface-blue: #eff6ff;
       --primary: #0f172a;
       --secondary: #1d4ed8;
       --accent: #2563eb;
-      --accent-dark: #1e40af;
       --text: #1f2937;
       --muted: #64748b;
       --border: #e2e8f0;
       --success: #059669;
       --warning: #d97706;
-      --danger: #dc2626;
       --shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
-      --shadow-strong: 0 24px 70px rgba(15, 23, 42, 0.16);
       --radius: 18px;
-      --radius-lg: 24px;
     }
 
     * {
@@ -74,12 +69,12 @@
     }
 
     img {
-      display: block;
       max-width: 100%;
+      display: block;
     }
 
     .container {
-      width: min(1160px, calc(100% - 32px));
+      width: min(1140px, calc(100% - 32px));
       margin: 0 auto;
     }
 
@@ -87,33 +82,32 @@
       position: sticky;
       top: 0;
       z-index: 50;
-      background: rgba(255, 255, 255, 0.94);
+      background: rgba(255, 255, 255, 0.92);
       backdrop-filter: blur(10px);
       border-bottom: 1px solid var(--border);
     }
 
     .nav {
+      min-height: 70px;
       display: flex;
       justify-content: space-between;
       align-items: center;
       gap: 20px;
-      min-height: 70px;
     }
 
     .brand {
       font-weight: 900;
       color: var(--primary);
-      letter-spacing: -0.03em;
+      letter-spacing: -0.02em;
       font-size: 18px;
-      white-space: nowrap;
     }
 
     .nav-links {
       display: flex;
-      gap: 14px;
+      gap: 15px;
       align-items: center;
-      font-size: 14px;
       color: var(--muted);
+      font-size: 14px;
       font-weight: 800;
     }
 
@@ -126,17 +120,17 @@
       position: relative;
       overflow: hidden;
       background:
-        radial-gradient(circle at top left, rgba(37, 99, 235, 0.30), transparent 35%),
-        radial-gradient(circle at bottom right, rgba(14, 165, 233, 0.22), transparent 34%),
+        radial-gradient(circle at top left, rgba(37, 99, 235, 0.24), transparent 33%),
+        radial-gradient(circle at bottom right, rgba(14, 165, 233, 0.15), transparent 36%),
         linear-gradient(135deg, #0f172a 0%, #111827 48%, #1e3a8a 100%);
       color: #ffffff;
-      padding: 88px 0 66px;
+      padding: 86px 0 66px;
     }
 
     .hero-grid {
       display: grid;
-      grid-template-columns: 1.46fr 0.92fr;
-      gap: 34px;
+      grid-template-columns: 1.42fr 0.92fr;
+      gap: 32px;
       align-items: center;
     }
 
@@ -155,9 +149,9 @@
     }
 
     .hero h1 {
-      font-size: clamp(38px, 6vw, 66px);
+      font-size: clamp(38px, 6vw, 64px);
       line-height: 1.02;
-      letter-spacing: -0.058em;
+      letter-spacing: -0.055em;
       margin-bottom: 18px;
     }
 
@@ -169,24 +163,17 @@
       max-width: 790px;
       color: #dbeafe;
       font-size: 19px;
-      margin-bottom: 28px;
-    }
-
-    .hero-actions,
-    .button-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      align-items: center;
+      margin-bottom: 24px;
     }
 
     .hero-actions {
-      flex-direction: column;
-      align-items: flex-start;
+      display: grid;
       gap: 12px;
+      align-items: start;
     }
 
-    .hero-action-row {
+    .hero-action-row,
+    .button-row {
       display: flex;
       flex-wrap: wrap;
       gap: 12px;
@@ -195,10 +182,11 @@
 
     .hero-action-caption {
       color: #bfdbfe;
-      font-size: 13px;
       font-weight: 900;
-      letter-spacing: 0.02em;
-      margin-top: 4px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      font-size: 12px;
+      margin-top: 3px;
     }
 
     .btn {
@@ -212,8 +200,7 @@
       font-weight: 900;
       font-size: 14px;
       border: 1px solid transparent;
-      transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
-      cursor: pointer;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease, border-color 0.18s ease;
     }
 
     .btn:hover {
@@ -224,7 +211,7 @@
     .btn-primary {
       background: var(--accent);
       color: #ffffff;
-      box-shadow: 0 14px 28px rgba(37, 99, 235, 0.25);
+      box-shadow: 0 14px 28px rgba(37, 99, 235, 0.28);
     }
 
     .btn-primary:hover {
@@ -237,28 +224,21 @@
       border-color: rgba(255, 255, 255, 0.24);
     }
 
+    .btn-hero-outline {
+      background: transparent;
+      color: #ffffff;
+      border-color: rgba(255, 255, 255, 0.55);
+    }
+
+    .btn-hero-outline:hover {
+      background: rgba(255, 255, 255, 0.10);
+      border-color: #ffffff;
+    }
+
     .btn-outline {
       background: #ffffff;
       color: var(--primary);
       border-color: var(--border);
-    }
-
-    .btn-hero-outline {
-      background: transparent;
-      color: #ffffff;
-      border-color: rgba(255, 255, 255, 0.58);
-      box-shadow: none;
-    }
-
-    .btn-hero-outline:hover {
-      background: rgba(255, 255, 255, 0.08);
-      border-color: rgba(255, 255, 255, 0.9);
-    }
-
-    .btn-soft {
-      background: #eaf1ff;
-      color: #1e40af;
-      border-color: #bfdbfe;
     }
 
     .hero-card {
@@ -349,7 +329,7 @@
     .lead {
       color: var(--muted);
       font-size: 17px;
-      max-width: 900px;
+      max-width: 890px;
     }
 
     .stats-grid {
@@ -392,12 +372,6 @@
       gap: 18px;
     }
 
-    .grid-4 {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 14px;
-    }
-
     .info-box,
     .project-card,
     .experience-card {
@@ -436,18 +410,6 @@
       background: #eef2f7;
       color: var(--primary);
       border-color: var(--border);
-    }
-
-    .tag.green {
-      background: #ecfdf5;
-      color: #047857;
-      border-color: #bbf7d0;
-    }
-
-    .tag.gold {
-      background: #fffbeb;
-      color: #b45309;
-      border-color: #fde68a;
     }
 
     .market-grid {
@@ -515,22 +477,13 @@
     }
 
     .project-featured {
-      grid-column: 1 / -1;
       border: 1px solid #bfdbfe;
       background: linear-gradient(180deg, #eff6ff 0%, #ffffff 100%);
-      box-shadow: var(--shadow-strong);
-    }
-
-    .project-large {
-      display: grid;
-      grid-template-columns: 1.08fr 0.92fr;
-      gap: 22px;
-      align-items: start;
     }
 
     .project-secondary {
-      border: 1px solid #dbeafe;
-      background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+      border: 1px solid #c7d2fe;
+      background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
     }
 
     .project-meta {
@@ -563,78 +516,22 @@
       color: var(--primary);
     }
 
-    .project-preview {
-      overflow: hidden;
-      border-radius: 16px;
-      border: 1px solid var(--border);
-      background: #ffffff;
-      box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
-    }
-
-    .project-preview img {
-      width: 100%;
-      height: auto;
-    }
-
-    .project-preview-caption {
-      padding: 12px 14px;
-      color: var(--muted);
-      font-size: 13px;
-      font-weight: 800;
-    }
-
-    .mini-dashboard-grid {
+    .project-gallery {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 14px;
-      margin-top: 18px;
+      gap: 12px;
+      margin-top: 16px;
     }
 
-    .mini-dashboard {
+    .project-gallery img {
+      border-radius: 12px;
       border: 1px solid var(--border);
-      background: #ffffff;
-      border-radius: 14px;
-      overflow: hidden;
-    }
-
-    .mini-dashboard img {
+      box-shadow: 0 12px 24px rgba(15, 23, 42, 0.08);
+      height: 130px;
       width: 100%;
-      aspect-ratio: 16 / 9;
       object-fit: cover;
-      object-position: top left;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .mini-dashboard div {
-      padding: 12px;
-    }
-
-    .mini-dashboard strong {
-      display: block;
-      color: var(--primary);
-      font-size: 14px;
-      margin-bottom: 4px;
-    }
-
-    .mini-dashboard span {
-      color: var(--muted);
-      font-size: 12px;
-      font-weight: 700;
-    }
-
-    .result-panel {
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 24px;
-      background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
-    }
-
-    .result-panel h3 {
-      margin-bottom: 6px;
-    }
-
-    .result-panel p {
-      color: var(--muted);
+      object-position: top;
+      background: #ffffff;
     }
 
     .contact-grid {
@@ -694,20 +591,21 @@
       font-size: 14px;
     }
 
-    @media (max-width: 980px) {
+    @media (max-width: 940px) {
       .hero-grid,
       .grid-2,
       .grid-3,
       .market-grid,
-      .contact-grid,
-      .project-large {
+      .contact-grid {
         grid-template-columns: 1fr;
       }
 
-      .grid-4,
-      .stats-grid,
-      .mini-dashboard-grid {
+      .stats-grid {
         grid-template-columns: repeat(2, 1fr);
+      }
+
+      .project-gallery {
+        grid-template-columns: 1fr;
       }
 
       .section-header {
@@ -735,9 +633,7 @@
         padding: 24px;
       }
 
-      .grid-4,
-      .stats-grid,
-      .mini-dashboard-grid {
+      .stats-grid {
         grid-template-columns: 1fr;
       }
 
@@ -752,10 +648,6 @@
       .btn {
         width: 100%;
       }
-
-      .hero-action-row {
-        width: 100%;
-      }
     }
   </style>
 </head>
@@ -767,11 +659,10 @@
 
       <nav class="nav-links" aria-label="Main navigation">
         <a href="#about">About</a>
-        <a href="#market">Market</a>
+        <a href="#target-roles">Target Roles</a>
         <a href="#modern-stack">Modern Stack</a>
         <a href="#skills">Skills</a>
         <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
         <a href="#projects">Projects</a>
         <a href="#results">Results</a>
         <a href="#contact">Contact</a>
@@ -782,14 +673,14 @@
   <header id="top" class="hero">
     <div class="container hero-grid">
       <div>
-        <div class="eyebrow">Data & BI • Generative AI • Data Engineering • Automation • IT Project Management</div>
+        <div class="eyebrow">Data • Business Intelligence • Data Science • Data Engineering • IT Project Management</div>
 
-        <h1>Turning data and processes into <span>business decisions</span>.</h1>
+        <h1>Turning data and IT processes into <span>business decisions</span>.</h1>
 
         <p class="hero-subtitle">
           Data & Business Intelligence professional focused on Power BI, SQL, Python,
-          Generative AI, Data Engineering fundamentals, automation, operational efficiency,
-          purchasing analytics, demand analytics and IT project management.
+          Data Science, Data Engineering fundamentals, automation, operational governance
+          and IT Project Management.
         </p>
 
         <div class="hero-actions">
@@ -807,23 +698,23 @@
             </a>
           </div>
 
-          <div class="hero-action-caption">IT Project Management • Power BI Dashboards</div>
+          <div class="hero-action-caption">IT Project Management • Power BI Executive Dashboards</div>
 
           <div class="hero-action-row">
             <a class="btn btn-hero-outline" href="https://app.powerbi.com/view?r=eyJrIjoiODk4MTBhYjctYjY1MC00MjQ3LWJhMDgtZWM3NDc4MWEwOTBmIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9" target="_blank" rel="noopener noreferrer">
-              Procurement Dashboard
+              Procurement BI Dashboard
             </a>
 
             <a class="btn btn-hero-outline" href="https://app.powerbi.com/view?r=eyJrIjoiNWRhNTEzODAtNjViYS00MjVkLTgxM2QtMDM5ZjAzM2EyMzJkIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9" target="_blank" rel="noopener noreferrer">
-              Demand Dashboard
+              Demand BI Dashboard
             </a>
 
             <a class="btn btn-hero-outline" href="https://app.powerbi.com/view?r=eyJrIjoiODc2YmYyYjAtNjA0Mi00NGY3LWE5ZTktNzE4YWEzYzUzMGUzIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9" target="_blank" rel="noopener noreferrer">
-              Coverage Dashboard
+              Coverage BI Dashboard
             </a>
 
             <a class="btn btn-hero-outline" href="https://github.com/Albuquerque777/Albuquerque777.github.io/tree/main/projetos/powerbi-compras-demandas-analytics" target="_blank" rel="noopener noreferrer">
-              IT Project Documentation
+              IT Project BI Case
             </a>
           </div>
         </div>
@@ -834,17 +725,17 @@
 
         <p>
           Senior Process Analyst working with operational efficiency, BI, automation,
-          IT project governance, purchasing process controls, demand management and strategic reporting.
+          IT project governance, purchasing process controls and strategic reporting.
         </p>
 
         <ul class="hero-card-list">
           <li>Executive dashboards and KPI monitoring</li>
-          <li>SQL analysis, Power Query, DAX and Power BI</li>
-          <li>Python analytics, predictive modeling and customer segmentation</li>
-          <li>Generative AI applied to BI, documentation and executive reporting</li>
+          <li>Power BI, Power Query, DAX, SQL and Python analysis</li>
+          <li>IT project management, operational governance and PMO support</li>
+          <li>Data quality, process controls and cross-base validation</li>
           <li>Data Engineering fundamentals with SQL, Python, PySpark and Databricks concepts</li>
-          <li>Power Platform automation, SharePoint and process governance</li>
-          <li>IT project management, purchasing analytics, demand analytics and operational control</li>
+          <li>Automation with Power Platform and SharePoint</li>
+          <li>Decision-support reporting for leadership and stakeholders</li>
         </ul>
       </aside>
     </div>
@@ -855,15 +746,15 @@
       <div class="section-header">
         <div>
           <div class="section-kicker">About Me</div>
-          <h2>Data, BI and operational execution in one profile.</h2>
+          <h2>Data, BI and IT project governance in one profile.</h2>
         </div>
       </div>
 
       <p class="lead">
         I work at the intersection of data analysis, business intelligence, process governance,
-        automation, Generative AI, Data Engineering fundamentals and IT project support. My focus is
-        to transform complex information into dashboards, analytical insights, reliable KPIs,
-        business controls, automation opportunities and practical recommendations for decision-making.
+        automation and IT project support. My focus is to transform complex operational information
+        into dashboards, analytical insights, reliable KPIs, business controls and practical
+        recommendations for decision-making.
       </p>
 
       <div class="stats-grid">
@@ -874,26 +765,26 @@
 
         <div class="stat">
           <strong>SQL</strong>
-          <span>Data extraction, analysis and validation</span>
+          <span>Data extraction, validation and analysis</span>
         </div>
 
         <div class="stat">
-          <strong>Python</strong>
-          <span>Analytics, Generative AI, data preparation and predictive models</span>
+          <strong>IT PM</strong>
+          <span>Project governance, controls and stakeholder visibility</span>
         </div>
 
         <div class="stat">
-          <strong>IT</strong>
-          <span>Governance, projects and process improvement</span>
+          <strong>Auto</strong>
+          <span>Process automation and operational efficiency</span>
         </div>
       </div>
     </section>
 
-    <section id="market" class="container section-card">
+    <section id="target-roles" class="container section-card">
       <div class="section-header">
         <div>
-          <div class="section-kicker">Market Alignment</div>
-          <h2>Profile aligned with Data, BI, Generative AI, Data Engineering, Automation and IT project Management.</h2>
+          <div class="section-kicker">Target Roles</div>
+          <h2>Profile focused on Data, BI and IT Project Management opportunities.</h2>
         </div>
       </div>
 
@@ -902,52 +793,52 @@
           <h3>Best aligned opportunities</h3>
 
           <p>
-            This portfolio is positioned for roles that combine data, business context,
-            technology, automation and operational performance.
+            This portfolio is positioned for roles that combine analytics, business context,
+            technology, project governance and process improvement.
           </p>
 
           <ul class="market-list">
             <li>Data Analyst / Senior Data Analyst</li>
-            <li>Business Intelligence Analyst / Power BI Analyst</li>
-            <li>Process & Data Analyst</li>
-            <li>Marketing Analytics / CRM Analytics Analyst</li>
-            <li>Procurement Analytics / Demand Analytics Analyst</li>
-            <li>Automation Analyst / Operational Efficiency Analyst</li>
-            <li>IT Project Management / Data-driven PMO</li>
-            <li>Data Engineering Fundamentals / Modern Analytics</li>
-            <li>Generative AI applied to BI and business processes</li>
+            <li>Business Intelligence Analyst / BI Analyst</li>
+            <li>Power BI Analyst / Power BI Developer</li>
+            <li>Data & Process Analyst</li>
+            <li>IT Project Analyst / IT Project Management</li>
+            <li>PMO Analyst with Data & BI focus</li>
+            <li>Operational Efficiency Analyst</li>
+            <li>Data Governance / Data Quality Analyst</li>
+            <li>Automation Analyst with Power Platform</li>
+            <li>Data Engineering Fundamentals / Modern Analytics roles</li>
           </ul>
         </div>
 
         <div class="info-box">
-          <h3>High-value market skills</h3>
+          <h3>Career positioning</h3>
 
           <p>
-            The portfolio emphasizes practical skills commonly required in current technology,
-            analytics and transformation opportunities.
+            The main objective is to work in roles connected to Data, Business Intelligence,
+            IT Project Management, automation, governance and executive reporting.
           </p>
 
           <div class="tag-list">
+            <span class="tag">Data Analysis</span>
+            <span class="tag">Business Intelligence</span>
             <span class="tag">Power BI</span>
             <span class="tag">SQL</span>
             <span class="tag">Python</span>
             <span class="tag">DAX</span>
             <span class="tag">Power Query</span>
-            <span class="tag">Data Modeling</span>
+            <span class="tag">IT Project Management</span>
+            <span class="tag">PMO</span>
+            <span class="tag">Data Governance</span>
             <span class="tag">Data Quality</span>
-            <span class="tag">Generative AI</span>
-            <span class="tag">Applied AI</span>
-            <span class="tag">Data Engineering</span>
-            <span class="tag">Databricks Fundamentals</span>
-            <span class="tag">PySpark</span>
-            <span class="tag">ETL / ELT</span>
             <span class="tag">Automation</span>
-            <span class="tag">Power Apps</span>
             <span class="tag">Power Automate</span>
             <span class="tag">SharePoint</span>
-            <span class="tag">Process Governance</span>
-            <span class="tag">Stakeholder Management</span>
-            <span class="tag">IT Project Management</span>
+            <span class="tag">Data Engineering Fundamentals</span>
+            <span class="tag">Databricks Fundamentals</span>
+            <span class="tag">PySpark</span>
+            <span class="tag">Executive Reporting</span>
+            <span class="tag">Operational Efficiency</span>
           </div>
         </div>
       </div>
@@ -956,88 +847,78 @@
     <section id="modern-stack" class="container section-card">
       <div class="section-header">
         <div>
-          <div class="section-kicker">Modern Data & AI Stack</div>
-          <h2>Skills aligned with current Data, AI, BI and Automation roles.</h2>
+          <div class="section-kicker">Modern Data & IT Stack</div>
+          <h2>Skills aligned with modern Data, BI, Automation and IT Project roles.</h2>
         </div>
       </div>
 
       <div class="grid-2">
         <div class="info-box">
-          <h3>Data Engineering & Lakehouse Fundamentals</h3>
-
+          <h3>Business Intelligence & Analytics</h3>
           <p>
-            Data Engineering fundamentals focused on SQL, Python, PySpark, ETL/ELT,
-            data quality, SSIS, Databricks fundamentals and modern lakehouse concepts.
+            Executive dashboards, semantic modeling, KPI design, DAX, Power Query,
+            analytical storytelling and decision-support reporting.
           </p>
+          <div class="tag-list">
+            <span class="tag">Power BI</span>
+            <span class="tag">Power BI Service</span>
+            <span class="tag">Power Query</span>
+            <span class="tag">DAX</span>
+            <span class="tag">Data Modeling</span>
+            <span class="tag">KPIs</span>
+            <span class="tag">Executive Dashboards</span>
+            <span class="tag">Data Storytelling</span>
+          </div>
+        </div>
 
+        <div class="info-box">
+          <h3>IT Project Management & Governance</h3>
+          <p>
+            Project follow-up, portfolio visibility, process controls, operational indicators,
+            stakeholder communication and governance routines.
+          </p>
+          <div class="tag-list">
+            <span class="tag">IT Project Management</span>
+            <span class="tag">PMO</span>
+            <span class="tag">Project Governance</span>
+            <span class="tag">Process Controls</span>
+            <span class="tag">Stakeholder Management</span>
+            <span class="tag">Operational Efficiency</span>
+            <span class="tag">KPI Monitoring</span>
+          </div>
+        </div>
+
+        <div class="info-box">
+          <h3>Data Engineering Fundamentals</h3>
+          <p>
+            Data preparation, SQL validation, ETL/ELT concepts, Python, PySpark,
+            Databricks fundamentals, data quality and analytical pipelines.
+          </p>
           <div class="tag-list">
             <span class="tag">SQL</span>
             <span class="tag">Python</span>
             <span class="tag">PySpark</span>
             <span class="tag">ETL / ELT</span>
-            <span class="tag">SSIS</span>
             <span class="tag">Databricks Fundamentals</span>
-            <span class="tag">Lakehouse Concepts</span>
             <span class="tag">Data Quality</span>
+            <span class="tag">Data Validation</span>
           </div>
         </div>
 
         <div class="info-box">
-          <h3>Applied AI & Generative AI</h3>
-
+          <h3>Automation & Process Improvement</h3>
           <p>
-            Applied AI skills focused on Generative AI, prompt engineering, LLM concepts,
-            RAG concepts, AI-assisted analysis, documentation and executive reporting.
+            Automation and governance skills focused on reducing manual effort,
+            improving visibility and strengthening operational routines.
           </p>
-
-          <div class="tag-list">
-            <span class="tag">Generative AI</span>
-            <span class="tag">Applied AI</span>
-            <span class="tag">Prompt Engineering</span>
-            <span class="tag">LLM Concepts</span>
-            <span class="tag">RAG Concepts</span>
-            <span class="tag">AI Agents Concepts</span>
-            <span class="tag">Copilot</span>
-            <span class="tag">AI for BI</span>
-          </div>
-        </div>
-
-        <div class="info-box">
-          <h3>Modern Analytics Platforms</h3>
-
-          <p>
-            Modern analytics stack connected to Power BI, Power BI Service, dataflows,
-            semantic models, RLS, governance and executive dashboards.
-          </p>
-
-          <div class="tag-list">
-            <span class="tag">Power BI</span>
-            <span class="tag">Power BI Service</span>
-            <span class="tag">Dataflows</span>
-            <span class="tag">Semantic Models</span>
-            <span class="tag">RLS</span>
-            <span class="tag">Data Governance</span>
-            <span class="tag">Executive Dashboards</span>
-          </div>
-        </div>
-
-        <div class="info-box">
-          <h3>Automation & IT Project Governance</h3>
-
-          <p>
-            Automation and governance skills focused on operational efficiency,
-            IT project control, process governance, SharePoint, Power Platform and business workflows.
-          </p>
-
           <div class="tag-list">
             <span class="tag">Power Automate</span>
             <span class="tag">Power Apps</span>
             <span class="tag">SharePoint</span>
             <span class="tag">Dataverse</span>
-            <span class="tag">APIs</span>
-            <span class="tag">LGPD</span>
-            <span class="tag">IT Project Management</span>
-            <span class="tag">Process Governance</span>
+            <span class="tag">Workflows</span>
+            <span class="tag">Process Improvement</span>
+            <span class="tag">Documentation</span>
           </div>
         </div>
       </div>
@@ -1047,18 +928,14 @@
       <div class="section-header">
         <div>
           <div class="section-kicker">Core Skills</div>
-          <h2>Technical and business skills for modern data roles.</h2>
+          <h2>Technical and business skills for Data, BI and IT governance roles.</h2>
         </div>
       </div>
 
       <div class="grid-3">
         <div class="info-box">
-          <h3>Main Data & BI Stack</h3>
-
-          <p>
-            Dashboard development, KPI design, executive reporting and analytical storytelling.
-          </p>
-
+          <h3>Data & BI</h3>
+          <p>Dashboard development, KPI design, modeling, reporting and analytical storytelling.</p>
           <div class="tag-list">
             <span class="tag">Power BI</span>
             <span class="tag">Power Query</span>
@@ -1066,51 +943,39 @@
             <span class="tag">SQL</span>
             <span class="tag">Excel</span>
             <span class="tag">Data Visualization</span>
-            <span class="tag">Executive Dashboards</span>
-            <span class="tag">Data Storytelling</span>
             <span class="tag">KPI Design</span>
+            <span class="tag">RLS</span>
+            <span class="tag">Dataflows</span>
           </div>
         </div>
 
         <div class="info-box">
-          <h3>Data Engineering & Applied Analytics</h3>
-
-          <p>
-            Data preparation, modeling, quality rules, analytical pipelines, Data Engineering fundamentals and applied analytics.
-          </p>
-
+          <h3>Analytics & Data Engineering</h3>
+          <p>Data preparation, quality rules, analytical pipelines and data engineering fundamentals.</p>
           <div class="tag-list">
             <span class="tag">Python</span>
             <span class="tag">PySpark</span>
             <span class="tag">Databricks Fundamentals</span>
-            <span class="tag">Data Engineering</span>
             <span class="tag">ETL / ELT</span>
             <span class="tag">SSIS</span>
             <span class="tag">Databases</span>
-            <span class="tag">Applied Machine Learning</span>
-            <span class="tag">Customer Segmentation</span>
-            <span class="tag">Predictive Analytics</span>
-            <span class="tag">SAS Viya</span>
-            <span class="tag">KNIME</span>
+            <span class="tag">Data Quality</span>
+            <span class="tag">Applied Analytics</span>
           </div>
         </div>
 
         <div class="info-box">
-          <h3>Automation & IT Governance</h3>
-
-          <p>
-            Process automation, business controls, IT project governance and stakeholder support.
-          </p>
-
+          <h3>IT Projects & Automation</h3>
+          <p>Project controls, IT governance, automation, business workflows and stakeholder support.</p>
           <div class="tag-list">
+            <span class="tag">IT Project Management</span>
+            <span class="tag">PMO</span>
             <span class="tag">Power Automate</span>
             <span class="tag">Power Apps</span>
             <span class="tag">SharePoint</span>
-            <span class="tag">Dataverse</span>
             <span class="tag">Jira</span>
-            <span class="tag">Scrum / SAFe</span>
+            <span class="tag">Scrum</span>
             <span class="tag">ITIL</span>
-            <span class="tag">LGPD</span>
           </div>
         </div>
       </div>
@@ -1120,7 +985,7 @@
       <div class="section-header">
         <div>
           <div class="section-kicker">Experience</div>
-          <h2>Professional experience focused on data-driven operations.</h2>
+          <h2>Professional experience focused on data-driven operations and IT governance.</h2>
         </div>
       </div>
 
@@ -1131,15 +996,13 @@
               <div class="role">Senior Process Analyst</div>
               <div class="company">HITSS Brasil</div>
             </div>
-
             <div class="period">Feb 2026 – Present</div>
           </div>
-
           <ul class="bullet-list">
-            <li>Working in Operational Efficiency with a focus on IT project management, BI, automation, data governance, purchasing process controls, demand management and strategic reporting.</li>
+            <li>Working in Operational Efficiency with a focus on IT project management, BI, automation, data governance, purchasing process controls and strategic reporting.</li>
             <li>Developing dashboards, reports and analytical views to support executive decision-making, operational performance monitoring and data consistency.</li>
-            <li>Managing bench control processes by tracking resources without active project allocation, identifying previous project and manager history and supporting reallocation decisions.</li>
-            <li>Structuring and improving operational data flows to reduce manual effort, increase visibility and strengthen governance across business processes.</li>
+            <li>Structuring operational controls related to IT project flow, resource visibility, process status, purchasing/demand tracking and cross-base validation.</li>
+            <li>Improving data flows to reduce manual effort, increase visibility and strengthen governance across business and technology processes.</li>
           </ul>
         </article>
 
@@ -1149,10 +1012,8 @@
               <div class="role">Lead Consultant - Development & IT</div>
               <div class="company">Radisson | Project-based / Consulting</div>
             </div>
-
             <div class="period">Mar 2025 – Apr 2026</div>
           </div>
-
           <ul class="bullet-list">
             <li>Structured the Development & IT area, defining roadmap, governance model, follow-up rituals and value-based prioritization.</li>
             <li>Designed and standardized ITSM processes, including queues, SLAs, owners, statuses and performance dashboards.</li>
@@ -1167,58 +1028,14 @@
               <div class="role">Senior Administrative Analyst</div>
               <div class="company">Vale / Adecco</div>
             </div>
-
             <div class="period">Jan 2024 – Dec 2024</div>
           </div>
-
           <ul class="bullet-list">
-            <li>Worked with analytics and AI to support executive decision-making, structuring data, analyses and performance indicators.</li>
-            <li>Developed statistical analyses, executive dashboards, reports and analytical data products for business areas.</li>
-            <li>Translated business demands into analytical requirements, validations, UAT routines and documentation.</li>
+            <li>Worked with data analysis to support executive decision-making, structuring data, analyses and performance indicators.</li>
+            <li>Developed executive dashboards, reports and analytical data products for business areas.</li>
+            <li>Translated business needs into analytical requirements, validations, UAT routines and documentation.</li>
           </ul>
         </article>
-      </div>
-    </section>
-
-    <section id="education" class="container section-card">
-      <div class="section-header">
-        <div>
-          <div class="section-kicker">Education & Certifications</div>
-          <h2>Academic background supporting analytics, business and technology.</h2>
-        </div>
-      </div>
-
-      <div class="grid-2">
-        <div class="info-box">
-          <h3>Academic Background</h3>
-
-          <ul class="bullet-list">
-            <li>Postgraduate Degree in Data Science, Business Intelligence, Big Data and Analytics.</li>
-            <li>MBA in Project Management.</li>
-            <li>MBA in Logistics and Supply Chain Management.</li>
-            <li>MBA in ESG and Corporate Sustainability.</li>
-            <li>Technology Degree in Management Processes.</li>
-            <li>Environmental and Sanitary Engineering studies - UERJ.</li>
-          </ul>
-        </div>
-
-        <div class="info-box">
-          <h3>Certifications & Courses</h3>
-
-          <div class="tag-list">
-            <span class="tag">Advanced Power BI</span>
-            <span class="tag">Advanced Excel</span>
-            <span class="tag">Data Engineering</span>
-            <span class="tag">Artificial Intelligence</span>
-            <span class="tag">Generative AI</span>
-            <span class="tag">Databricks Fundamentals</span>
-            <span class="tag">Statistics</span>
-            <span class="tag">Data Science with KNIME</span>
-            <span class="tag">Agile Methods</span>
-            <span class="tag">Business Management</span>
-            <span class="tag">Introduction to SAP</span>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -1226,134 +1043,97 @@
       <div class="section-header">
         <div>
           <div class="section-kicker">Featured Projects</div>
-          <h2>Portfolio projects with business context, technical execution and executive storytelling.</h2>
+          <h2>Portfolio projects with business context, BI execution and IT governance.</h2>
         </div>
       </div>
 
       <div class="grid-2">
         <article class="project-card project-featured">
-          <div class="project-large">
-            <div>
-              <h3>iFood Marketing Analytics</h3>
-
-              <div class="project-meta">
-                <span>Main Portfolio Project</span>
-                <span>Power BI</span>
-                <span>SQL</span>
-                <span>Python</span>
-                <span>Applied Machine Learning</span>
-                <span>Marketing Analytics</span>
-              </div>
-
-              <p>
-                End-to-end Marketing Analytics project focused on customer behavior,
-                campaign response prediction, customer segmentation and executive insights.
-                The solution combines SQL, Python, Applied Machine Learning and Power BI to support
-                CRM prioritization, campaign optimization and data-driven marketing decisions.
-              </p>
-
-              <ul class="bullet-list" style="margin-top: 14px;">
-                <li>Predictive model to estimate customer campaign response probability.</li>
-                <li>Random Forest model with ROC-AUC of 0.86 and model sensitivity of 0.74.</li>
-                <li>KMeans customer segmentation into high-income, balanced and promotion-sensitive groups.</li>
-                <li>Business action plan focused on campaign budget waste, personalization, retention and discount optimization.</li>
-                <li>Executive Power BI dashboard published online.</li>
-              </ul>
-
-              <div class="project-highlight">
-                <strong>Business value:</strong>
-                prioritizes customers with higher campaign response probability, supports CRM targeting,
-                reduces discount waste and turns analytical outputs into executive decisions.
-              </div>
-
-              <div class="button-row" style="margin-top: 18px;">
-                <a class="btn btn-primary" href="https://app.powerbi.com/view?r=eyJrIjoiYjEwMTJjYmEtNTY3YS00ODRlLTgzNGYtYmUwMWEzZTM0NWYzIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9" target="_blank" rel="noopener noreferrer">
-                  View Dashboard
-                </a>
-
-                <a class="btn btn-outline" href="https://github.com/Albuquerque777/Albuquerque777.github.io/tree/main/projetos/ifood-marketing-analytics" target="_blank" rel="noopener noreferrer">
-                  Full Project
-                </a>
-
-                <a class="btn btn-outline" href="https://github.com/Albuquerque777/Albuquerque777.github.io/tree/main/projetos/ifood-marketing-analytics/python/outputs" target="_blank" rel="noopener noreferrer">
-                  Model Outputs
-                </a>
-
-                <a class="btn btn-outline" href="https://github.com/Albuquerque777/Albuquerque777.github.io/tree/main/projetos/ifood-marketing-analytics/python" target="_blank" rel="noopener noreferrer">
-                  Python Scripts
-                </a>
-              </div>
-            </div>
-
-            <aside class="result-panel">
-              <h3>Why this is the main project</h3>
-              <p>
-                This project demonstrates a complete analytics pipeline: business problem definition,
-                SQL preparation, Python analysis, predictive modeling, segmentation, Power BI dashboarding
-                and business recommendations.
-              </p>
-
-              <div class="stats-grid" style="grid-template-columns: repeat(2, 1fr); margin-top: 18px;">
-                <div class="stat">
-                  <strong>0.86</strong>
-                  <span>ROC-AUC</span>
-                </div>
-
-                <div class="stat">
-                  <strong>0.74</strong>
-                  <span>Model sensitivity</span>
-                </div>
-
-                <div class="stat">
-                  <strong>2,205</strong>
-                  <span>Customers analyzed</span>
-                </div>
-
-                <div class="stat">
-                  <strong>3</strong>
-                  <span>Customer segments</span>
-                </div>
-              </div>
-            </aside>
-          </div>
-        </article>
-
-        <article class="project-card project-secondary">
-          <h3>Power BI - IT Project, Procurement & Demand Analytics</h3>
+          <h3>Main Project: iFood Data & BI Analytics</h3>
 
           <div class="project-meta">
+            <span>Main Portfolio Project</span>
             <span>Power BI</span>
-            <span>Power Query</span>
-            <span>DAX</span>
-            <span>IT Project Management</span>
-            <span>Procurement Analytics</span>
-            <span>Demand Analytics</span>
+            <span>SQL</span>
+            <span>Python</span>
+            <span>Applied Analytics</span>
+            <span>Data Storytelling</span>
           </div>
 
           <p>
-            Executive analytics project focused on IT project governance, purchasing processes,
-            demand management and data coverage between operational bases. The solution includes
-            three dashboards: Procurement, Demand Management and Procurement x Demand Coverage.
+            End-to-end data analytics project using the iFood dataset as a business case.
+            The solution combines SQL, Python, analytical modeling and Power BI to transform
+            raw data into customer insights, segmentation, predictive indicators and executive dashboards.
           </p>
 
           <ul class="bullet-list" style="margin-top: 14px;">
-            <li>Procurement dashboard with open processes, closed processes, wins, no-contract outcomes, aging and financial value.</li>
-            <li>Demand dashboard with opportunities, win rate, pipeline, probability, product/solution and monthly evolution.</li>
-            <li>Comparative dashboard to identify records found, not found, duplicated or existing only in the demand base.</li>
-            <li>Business documentation with glossary, rules, metrics and interpretation for non-technical stakeholders.</li>
+            <li>SQL data treatment, validation and KPI creation.</li>
+            <li>Python exploratory analysis, feature engineering and predictive modeling.</li>
+            <li>Customer segmentation and analytical prioritization using business rules and model outputs.</li>
+            <li>Executive Power BI dashboard published online.</li>
+            <li>Clear documentation connecting technical outputs to business decisions.</li>
           </ul>
 
           <div class="project-highlight">
             <strong>Business value:</strong>
-            improves visibility over IT project demand, purchasing controls, data coverage, operational inconsistencies,
-            process aging and executive decision-making.
+            demonstrates the full Data & BI cycle: data preparation, analysis, modeling,
+            visualization and executive decision support.
           </div>
 
           <div class="button-row" style="margin-top: 18px;">
-            <a class="btn btn-primary" href="https://github.com/Albuquerque777/Albuquerque777.github.io/tree/main/projetos/powerbi-compras-demandas-analytics" target="_blank" rel="noopener noreferrer">
-              Project Documentation
+            <a class="btn btn-primary" href="https://app.powerbi.com/view?r=eyJrIjoiYjEwMTJjYmEtNTY3YS00ODRlLTgzNGYtYmUwMWEzZTM0NWYzIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9" target="_blank" rel="noopener noreferrer">
+              View Dashboard
             </a>
 
+            <a class="btn btn-outline" href="https://github.com/Albuquerque777/Albuquerque777.github.io/tree/main/projetos/ifood-marketing-analytics" target="_blank" rel="noopener noreferrer">
+              Full Project
+            </a>
+
+            <a class="btn btn-outline" href="https://github.com/Albuquerque777/Albuquerque777.github.io/tree/main/projetos/ifood-marketing-analytics/python/outputs" target="_blank" rel="noopener noreferrer">
+              Model Outputs
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card project-secondary">
+          <h3>IT Project Management & Operational BI</h3>
+
+          <div class="project-meta">
+            <span>IT Project Management</span>
+            <span>Power BI</span>
+            <span>DAX</span>
+            <span>Power Query</span>
+            <span>Governance</span>
+            <span>Operational Controls</span>
+          </div>
+
+          <p>
+            Power BI project focused on IT project governance, operational efficiency,
+            process visibility and cross-base monitoring. The dashboards analyze procurement flow,
+            demand portfolio and coverage between business systems to identify status, backlog,
+            aging, finalized processes, data inconsistencies and management priorities.
+          </p>
+
+          <ul class="bullet-list" style="margin-top: 14px;">
+            <li>Executive dashboards for procurement, demand portfolio and cross-base coverage.</li>
+            <li>Monitoring of open processes, closed processes, success rate, aging and financial value.</li>
+            <li>Data governance and consistency analysis across different operational bases.</li>
+            <li>IT project management perspective focused on visibility, controls and decision support.</li>
+          </ul>
+
+          <div class="project-gallery" aria-label="IT Project BI dashboard screenshots">
+            <img src="projetos/powerbi-compras-demandas-analytics/imagens/compras-visao-geral.png" alt="Procurement dashboard overview" loading="lazy" />
+            <img src="projetos/powerbi-compras-demandas-analytics/imagens/demandas-visao-geral.png" alt="Demand dashboard overview" loading="lazy" />
+            <img src="projetos/powerbi-compras-demandas-analytics/imagens/Comparativo.png" alt="Coverage dashboard overview" loading="lazy" />
+          </div>
+
+          <div class="project-highlight">
+            <strong>Business value:</strong>
+            supports IT project governance by connecting operational processes, status visibility,
+            financial impact, data quality and management indicators in a single analytical view.
+          </div>
+
+          <div class="button-row" style="margin-top: 18px;">
             <a class="btn btn-outline" href="https://app.powerbi.com/view?r=eyJrIjoiODk4MTBhYjctYjY1MC00MjQ3LWJhMDgtZWM3NDc4MWEwOTBmIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9" target="_blank" rel="noopener noreferrer">
               Procurement Dashboard
             </a>
@@ -1363,74 +1143,14 @@
             </a>
 
             <a class="btn btn-outline" href="https://app.powerbi.com/view?r=eyJrIjoiODc2YmYyYjAtNjA0Mi00NGY3LWE5ZTktNzE4YWEzYzUzMGUzIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9" target="_blank" rel="noopener noreferrer">
-              Comparative Dashboard
+              Coverage Dashboard
+            </a>
+
+            <a class="btn btn-outline" href="https://github.com/Albuquerque777/Albuquerque777.github.io/tree/main/projetos/powerbi-compras-demandas-analytics" target="_blank" rel="noopener noreferrer">
+              Documentation
             </a>
           </div>
         </article>
-
-        <article class="project-card">
-          <h3>Operational Control & Executive Reporting</h3>
-
-          <div class="project-meta">
-            <span>BI</span>
-            <span>Governance</span>
-            <span>Automation</span>
-            <span>Process Improvement</span>
-          </div>
-
-          <p>
-            Professional work focused on structuring operational controls, validating data,
-            monitoring inconsistencies and creating executive views for leadership.
-          </p>
-
-          <ul class="bullet-list" style="margin-top: 14px;">
-            <li>Operational indicators and management routines.</li>
-            <li>Data validation and inconsistency analysis.</li>
-            <li>Automation opportunities to reduce manual work.</li>
-            <li>Decision-support views for stakeholders and leadership.</li>
-          </ul>
-
-          <div class="tag-list">
-            <span class="tag dark">Power BI</span>
-            <span class="tag dark">Excel</span>
-            <span class="tag dark">SQL</span>
-            <span class="tag dark">Power Query</span>
-            <span class="tag dark">Process Governance</span>
-          </div>
-        </article>
-      </div>
-
-      <div style="margin-top: 18px;">
-        <h3>Power BI Project Gallery</h3>
-        <p class="lead" style="font-size: 15px; margin-bottom: 14px;">
-          Screenshots from the procurement and demand analytics project. The PBIX files and original databases are not publicly shared.
-        </p>
-
-        <div class="mini-dashboard-grid">
-          <a class="mini-dashboard" href="https://app.powerbi.com/view?r=eyJrIjoiODk4MTBhYjctYjY1MC00MjQ3LWJhMDgtZWM3NDc4MWEwOTBmIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9" target="_blank" rel="noopener noreferrer">
-            <img src="projetos/powerbi-compras-demandas-analytics/imagens/compras-visao-geral.png" alt="Procurement Power BI dashboard overview">
-            <div>
-              <strong>Procurement Overview</strong>
-              <span>Processes, values, status, managers, towers and monthly evolution.</span>
-            </div>
-          </a>
-
-          <a class="mini-dashboard" href="https://app.powerbi.com/view?r=eyJrIjoiNWRhNTEzODAtNjViYS00MjVkLTgxM2QtMDM5ZjAzM2EyMzJkIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9" target="_blank" rel="noopener noreferrer">
-            <img src="projetos/powerbi-compras-demandas-analytics/imagens/demandas-visao-geral.png" alt="Demand Power BI dashboard overview">
-            <div>
-              <strong>Demand Overview</strong>
-              <span>Opportunities, pipeline, win rate, probability and product analysis.</span>
-            </div>
-          </a>
-
-          <a class="mini-dashboard" href="https://app.powerbi.com/view?r=eyJrIjoiODc2YmYyYjAtNjA0Mi00NGY3LWE5ZTktNzE4YWEzYzUzMGUzIiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9" target="_blank" rel="noopener noreferrer">
-            <img src="projetos/powerbi-compras-demandas-analytics/imagens/Comparativo.png" alt="Comparative Power BI dashboard between procurement and demand bases">
-            <div>
-              <strong>Procurement x Demand Coverage</strong>
-              <span>Coverage, not found records, duplicated records and data quality issues.</span>
-            </div>
-          </a>
-        </div>
       </div>
     </section>
 
@@ -1438,69 +1158,56 @@
       <div class="section-header">
         <div>
           <div class="section-kicker">Featured Results</div>
-          <h2>Business-oriented analytics results from the main portfolio projects.</h2>
+          <h2>Business-oriented analytics results from the main iFood Data & BI project.</h2>
         </div>
       </div>
 
-      <div class="grid-2">
-        <div class="result-panel">
-          <h3>iFood Marketing Analytics Results</h3>
-          <p>
-            The iFood project demonstrates advanced analytics applied to CRM and marketing decisions,
-            using SQL, Python, Machine Learning and Power BI.
-          </p>
+      <p class="lead">
+        The main project demonstrates how SQL, Python and Power BI can be used to create
+        analytical outputs, executive indicators, segmentation and decision-support views.
+      </p>
 
-          <div class="stats-grid" style="grid-template-columns: repeat(2, 1fr);">
-            <div class="stat">
-              <strong>2,205</strong>
-              <span>Customers analyzed</span>
-            </div>
-
-            <div class="stat">
-              <strong>20.77%</strong>
-              <span>Campaign response rate</span>
-            </div>
-
-            <div class="stat">
-              <strong>0.86</strong>
-              <span>ROC-AUC of the model</span>
-            </div>
-
-            <div class="stat">
-              <strong>3</strong>
-              <span>Actionable customer segments</span>
-            </div>
-          </div>
+      <div class="stats-grid">
+        <div class="stat">
+          <strong>2,205</strong>
+          <span>Customers analyzed</span>
         </div>
 
-        <div class="result-panel">
-          <h3>Procurement, Demand & IT Project Analytics Results</h3>
-          <p>
-            The Power BI project demonstrates executive reporting, process controls, IT project governance,
-            demand management and coverage analysis between operational bases.
-          </p>
+        <div class="stat">
+          <strong>20.77%</strong>
+          <span>Response rate analyzed in the dataset</span>
+        </div>
 
-          <div class="stats-grid" style="grid-template-columns: repeat(2, 1fr);">
-            <div class="stat">
-              <strong>453</strong>
-              <span>Procurement processes analyzed</span>
-            </div>
+        <div class="stat">
+          <strong>0.86</strong>
+          <span>ROC-AUC of the predictive model</span>
+        </div>
 
-            <div class="stat">
-              <strong>3,834</strong>
-              <span>Demand records analyzed</span>
-            </div>
+        <div class="stat">
+          <strong>3</strong>
+          <span>Actionable analytical segments</span>
+        </div>
+      </div>
 
-            <div class="stat">
-              <strong>80.54%</strong>
-              <span>Procurement success rate for closed processes</span>
-            </div>
+      <div class="stats-grid">
+        <div class="stat">
+          <strong>Power BI</strong>
+          <span>Published executive dashboard</span>
+        </div>
 
-            <div class="stat">
-              <strong>96.2%</strong>
-              <span>Demand win rate</span>
-            </div>
-          </div>
+        <div class="stat">
+          <strong>SQL</strong>
+          <span>Data treatment and KPI validation</span>
+        </div>
+
+        <div class="stat">
+          <strong>Python</strong>
+          <span>Exploratory analysis and modeling</span>
+        </div>
+
+        <div class="stat">
+          <strong>Business</strong>
+          <span>Insights translated into decisions</span>
         </div>
       </div>
     </section>
@@ -1510,13 +1217,12 @@
         <div>
           <div class="section-kicker">Contact</div>
 
-          <h2>Available for Data, BI, Automation and IT project opportunities.</h2>
+          <h2>Available for Data, BI and IT Project Management opportunities.</h2>
 
           <p class="lead" style="margin-top: 12px;">
             I am open to opportunities involving Data Analysis, Business Intelligence,
-            Power BI, SQL, Python, Generative AI, Data Engineering fundamentals,
-            operational efficiency, process automation, procurement analytics, demand analytics and
-            IT project management.
+            Power BI, SQL, Python, Data Engineering fundamentals, operational efficiency,
+            process automation, data governance and IT Project Management.
           </p>
 
           <ul class="contact-list">
@@ -1551,11 +1257,9 @@
           <h3>Career interests</h3>
 
           <p>
-            Open to Data, BI, Analytics, Automation, Generative AI and Data Engineering
-            opportunities, including remote, hybrid, Brazil-wide, LATAM and international
-            remote roles. I am especially interested in positions that connect business
-            intelligence, SQL, Python, Power BI, Data Engineering fundamentals, Generative AI,
-            IT project management and operational efficiency.
+            Open to Data, BI, Analytics, Automation, Data Engineering fundamentals and
+            IT Project Management opportunities, including remote, hybrid, Brazil-wide,
+            LATAM and international remote roles.
           </p>
 
           <div class="tag-list">
@@ -1571,12 +1275,11 @@
             <span class="tag">Data Analyst</span>
             <span class="tag">BI Analyst</span>
             <span class="tag">Power BI Analyst</span>
-            <span class="tag">CRM Analytics</span>
-            <span class="tag">Marketing Analytics</span>
-            <span class="tag">Procurement Analytics</span>
+            <span class="tag">IT Project Analyst</span>
+            <span class="tag">PMO Analyst</span>
+            <span class="tag">Data Governance</span>
             <span class="tag">Automation Analyst</span>
-            <span class="tag">Generative AI</span>
-            <span class="tag">Data Engineering</span>
+            <span class="tag">Operational Efficiency</span>
           </div>
 
           <div class="button-row" style="margin-top: 18px;">
@@ -1594,7 +1297,7 @@
   </main>
 
   <footer>
-    <p>© 2026 Alexander Albuquerque | Data, Business Intelligence, Generative AI, Data Engineering, Automation and IT Project Management Portfolio</p>
+    <p>© 2026 Alexander Albuquerque | Data, Business Intelligence, Automation, Data Engineering and IT Project Management Portfolio</p>
   </footer>
 </body>
 </html>
