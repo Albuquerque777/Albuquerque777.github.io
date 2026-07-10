@@ -1,4 +1,4 @@
-# Power BI - Compras, Demandas e Cobertura Cadastral
+# Power BI - Compras, Demandas e Compartido Compras x Demandas
 
 ## Sobre o projeto
 
